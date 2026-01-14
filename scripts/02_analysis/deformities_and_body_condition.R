@@ -18,6 +18,7 @@ library(tidyverse)
 library(readxl)
 library(car)
 
+
 ################################################################################
 # 1. Ellicott Juveniles
 ################################################################################
@@ -46,6 +47,7 @@ ellicott_juv_anova
 
 
 
+
 ################################################################################
 # 2. Prospect Juveniles
 ################################################################################
@@ -71,6 +73,8 @@ summary(prospect_juv_anova)
 ################################################################################
 
 
+
+
 ################################################################################
 # 3. Ellicott Larvae
 ################################################################################
@@ -94,6 +98,7 @@ ellicott_larv_anova <- aov(body_condition ~ deformities,
                           data = ellicott_larv)
 
 summary(ellicott_larv_anova)
+TukeyHSD(ellicott_larv_anova)
 ################################################################################
 
 
@@ -123,3 +128,89 @@ prospect_larv_anova <- aov(body_condition ~ deformities,
 
 summary(prospect_larv_anova)
 ################################################################################
+
+
+
+
+################################################################################
+# 5 Data Visualization
+################################################################################
+
+# 5.1 Ellicott Juvenile Boxplot ------------------------------------------------
+levels(ellicott_juv$deformities) <- c('Healthy', 'Deformed')
+
+ggplot(data = ellicott_juv,
+       aes( x = deformities,
+            y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Deformity Status") +
+  ylab("Body Condition") +
+  labs(title = "Ellicott Juveniles") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(size = 16),
+        title = element_text(size = 20))
+
+
+# 5.2 Prospect Juvenile Boxplot ------------------------------------------------
+levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
+
+ggplot(data = prospect_juv,
+       aes( x = deformities,
+            y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Deformity Status") +
+  ylab("Body Condition") +
+  labs(title = "Prospect Juveniles") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(size = 16),
+        title = element_text(size = 20))
+
+
+# 5.3 Ellicott Larvae Boxplot --------------------------------------------------
+levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
+
+ggplot(data = ellicott_larv,
+       aes( x = deformities,
+            y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Deformity Status") +
+  ylab("Body Condition") +
+  labs(title = "Ellicott Larvae") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(size = 16),
+        title = element_text(size = 20))
+
+
+# 5.4 Prospect Larvae ----------------------------------------------------------
+levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
+
+ggplot(data = prospect_larv,
+       aes( x = deformities,
+            y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Deformity Status") +
+  ylab("Body Condition") +
+  labs(title = "Prospect Larvae") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(size = 16),
+        title = element_text(size = 20))
+
+################################################################################
+
+
+
+
+
+
+
+
+
+
