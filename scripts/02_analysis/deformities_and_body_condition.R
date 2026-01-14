@@ -6,7 +6,11 @@
 # aeo83@miami.edu
 # 1/13/2026
 #
-# Description
+# This is a set of oneway ANOVAs designed to test if the presence of deformities
+# in larval and juvenile Santa Cruz Long-toed Salamanders results in differences
+# in body condition (measured as residuals of log-mass vs. log-snout-to-vent-
+# length). We test this effect at two different ponds, called Prospect and
+# Ellicott.
 #
 
 # Load Packages ################################################################
