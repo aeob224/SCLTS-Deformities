@@ -17,6 +17,7 @@
 library(tidyverse)
 library(readxl)
 library(car)
+library(cowplot)
 
 
 ################################################################################
@@ -139,9 +140,9 @@ summary(prospect_larv_anova)
 # 5.1 Ellicott Juvenile Boxplot ------------------------------------------------
 levels(ellicott_juv$deformities) <- c('Healthy', 'Deformed')
 
-ggplot(data = ellicott_juv,
-       aes( x = deformities,
-            y = body_condition)) +
+ellicott_juv_plot <- ggplot(data = ellicott_juv,
+                            aes( x = deformities,
+                                 y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
@@ -150,15 +151,17 @@ ggplot(data = ellicott_juv,
   theme_classic() +
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
-        title = element_text(size = 20))
+        title = element_text(size = 20, hjust = 0.5),
+        plot.title = element_text(hjust = 0.5))
 
+ellicott_juv_plot
 
 # 5.2 Prospect Juvenile Boxplot ------------------------------------------------
 levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
 
-ggplot(data = prospect_juv,
-       aes( x = deformities,
-            y = body_condition)) +
+prospect_juv_plot <- ggplot(data = prospect_juv,
+                             aes( x = deformities,
+                                  y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
@@ -167,15 +170,17 @@ ggplot(data = prospect_juv,
   theme_classic() +
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
-        title = element_text(size = 20))
+        title = element_text(size = 20),
+        plot.title = element_text(hjust = 0.5))
 
+prospect_juv_plot
 
 # 5.3 Ellicott Larvae Boxplot --------------------------------------------------
 levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
 
-ggplot(data = ellicott_larv,
-       aes( x = deformities,
-            y = body_condition)) +
+ellicott_larv_plot <- ggplot(data = ellicott_larv,
+                             aes( x = deformities,
+                                  y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
@@ -184,15 +189,17 @@ ggplot(data = ellicott_larv,
   theme_classic() +
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
-        title = element_text(size = 20))
+        title = element_text(size = 20),
+        plot.title = element_text(hjust = 0.5))
 
+ellicott_larv_plot
 
 # 5.4 Prospect Larvae ----------------------------------------------------------
 levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
 
-ggplot(data = prospect_larv,
-       aes( x = deformities,
-            y = body_condition)) +
+prospect_larv_plot <- ggplot(data = prospect_larv,
+                             aes( x = deformities,
+                                  y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
@@ -201,7 +208,29 @@ ggplot(data = prospect_larv,
   theme_classic() +
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
-        title = element_text(size = 20))
+        title = element_text(size = 20),
+        plot.title = element_text(hjust = 0.5))
+
+prospect_larv_plot
+
+
+# 5.5 Multi-Plots ---------------------------------------------------------------
+
+## For juveniles
+juvenile_plots <- plot_grid(ellicott_juv_plot,
+                            prospect_juv_plot,
+                            ncol = 2,
+                            labels = c("A", "B"))
+
+ggsave("results/img/juvenile_plots.jpg", plot = juvenile_plots)
+
+## For larvae
+larval_plots <- plot_grid(ellicott_larv_plot,
+                          prospect_larv_plot,
+                          ncol = 2,
+                          labels = c("A", "B"))
+
+ggsave("results/img/larval_plots.jpg", plot = larval_plots)
 
 ################################################################################
 
