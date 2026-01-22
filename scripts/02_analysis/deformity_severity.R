@@ -16,6 +16,7 @@ library(readxl)
 library(cowplot)
 library(car)
 library(rstatix)
+library(cld)
 
 ################################################################################
 # 1. Ellicott Juvenile Severity Effect
@@ -26,7 +27,7 @@ library(rstatix)
 ## This filters Ellicott data where deformity severity and  body condition
 ## could be calculated. It also calculates a severity index and body condition.
 ellicott_severity <- read_csv("data/raw/severity_dataset.csv") |>
-  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  dplyr::select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Ellicott (inner)" | pond == "Ellicott (outer)") |>
   drop_na() |>
   mutate(severity_index = case_when(
@@ -55,11 +56,12 @@ ellicott_juv_anova <- oneway.test(body_condition ~ severity_index,
 ellicott_juv_anova
 
 # 1.3 Post-Hoc Test -----------------------------------------------------------
-games_howell_test(body_condition ~ severity_index,
+juvenile_multiple_comparison <- games_howell_test(body_condition ~ severity_index,
                   data = ellicott_severity,
                   conf.level = 0.95)
 
-
+## Connecting Letters Report
+cld::make_cld(juvenile_multiple_comparison)
 
 # 1.4 Visualization ------------------------------------------------------------
 levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
@@ -97,7 +99,7 @@ ellicott_deformity_severity
 ## This filters Ellicott data where deformity severity and  body condition
 ## could be calculated. It also calculates a severity index and body condition.
 ellicott_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |>
-  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  dplyr::select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Ellicott") |>
   mutate(severity_index = case_when(
     fused_limbs > 0 ~ 3,
@@ -124,10 +126,12 @@ ellicott_larvae_anova <- aov(body_condition ~ severity_index,
 summary(ellicott_larvae_anova)
 
 # 2.3 Post-Hoc Test -----------------------------------------------------------
-TukeyHSD(ellicott_larvae_anova,
+larval_multiple_comparisons <- tukey_hsd(ellicott_larvae_anova,
           conf.level = 0.95)
 
+larval_multiple_comparisons
 
+cld::make_cld(larval_multiple_comparisons)
 
 # 2.4 Visualization ------------------------------------------------------------
 levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
@@ -218,6 +222,20 @@ prospect__larval_deformity_severity
 
 
 
+
+################################################################################
+# 4. Ellicott Figure
+################################################################################
+severity_plots <- plot_grid(ellicott_deformity_severity,
+                            ellicott_larval_deformity_severity,
+                            ncol = 2,
+                            labels = c("A", "B"),
+                            label_size = 20)
+severity_plots
+
+ggsave("results/img/severity_plots.jpg", plot = severity_plots,
+       width = 20,
+       height = 10)
 
 
 
