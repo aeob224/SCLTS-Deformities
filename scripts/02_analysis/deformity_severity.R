@@ -14,6 +14,8 @@
 library(tidyverse)
 library(readxl)
 library(cowplot)
+library(car)
+library(rstatix)
 
 ################################################################################
 # 1. Ellicott Juvenile Severity Effect
@@ -22,84 +24,209 @@ library(cowplot)
 # 1.1 Filter Ellicott data ----------------------------------------------------
 
 ## This filters Ellicott data where deformity severity and  body condition
-## could be calculated.
-ellicott_severity <- read_csv("data/raw/simplified_deformities.csv") |>
-  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs, fused_toes) |>
+## could be calculated. It also calculates a severity index and body condition.
+ellicott_severity <- read_csv("data/raw/severity_dataset.csv") |>
+  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Ellicott (inner)" | pond == "Ellicott (outer)") |>
   drop_na() |>
-  mutate(log_mass = log(mass),
-         log_svl = log(svl),
-         extra_toes = as.factor(as.numeric(extra_toes > 0)),
-         extra_limbs = as.factor(as.numeric(extra_limbs > 0)),
-         fused_limbs = as.factor(as.numeric(fused_limbs > 0)),
-         fused_toes = as.factor(as.numeric(fused_toes > 0)))
+  mutate(severity_index = case_when(
+    fused_limbs > 0 ~ 3,
+    extra_limbs > 0 ~ 2,
+    extra_toes > 0 ~ 1,
+    TRUE ~ 0
+  ),
+  log_mass = log(mass),
+  log_svl = log(svl)) |>
+  mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
+         severity_index = as.character(severity_index))
 
 
-# 1.2 Calculate body condition -------------------------------------------------
-
-ellicott_severity$body_condition <- residuals(lm(log_mass ~ log_svl, ellicott_severity))
 
 
-# 1.3 Compare extra toes to those without extra toes ---------------------------
-## Test equality of variance
-leveneTest(body_condition ~ extra_toes, data = ellicott_severity)
+# 1.2 ANOVA of severity and body condition -------------------------------------
+## Levene test is significant. Variances not equal, so use Welch's ANOVA.
+leveneTest(body_condition ~ severity_index, data = ellicott_severity)
 
-## Variances equal. Use oneway ANOVA
-extra_toes_anova <- oneway.test(body_condition ~ extra_toes,
+## Welch's ANOVA
+ellicott_juv_anova <- oneway.test(body_condition ~ severity_index,
                                   data = ellicott_severity,
-                                  var.equal = T)
+                                  var.equal = F)
 
-extra_toes_anova
+ellicott_juv_anova
 
-
-# 1.4 Compare extra limbs to those without extra limbs -------------------------
-## Test equality of variance
-leveneTest(body_condition ~ extra_limbs, data = ellicott_severity)
-
-## Variances equal. Use oneway ANOVA
-extra_limbs_anova <- oneway.test(body_condition ~ extra_limbs,
-                                data = ellicott_severity,
-                                var.equal = T)
-
-extra_limbs_anova
-
-
-# 1.5 Compare fused limbs to those without fused limbs -------------------------
-## Test equality of variance
-leveneTest(body_condition ~ fused_limbs, data = ellicott_severity)
-
-## Variances equal. Use oneway ANOVA
-fused_limbs_anova <- oneway.test(body_condition ~ fused_limbs,
-                                 data = ellicott_severity,
-                                 var.equal = T)
-
-fused_limbs_anova
+# 1.3 Post-Hoc Test -----------------------------------------------------------
+games_howell_test(body_condition ~ severity_index,
+                  data = ellicott_severity,
+                  conf.level = 0.95)
 
 
 
+# 1.4 Visualization ------------------------------------------------------------
+levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
 
 
-
-
-
-
-# Test boxplot
-levels(ellicott_severity$fused_limbs) <- c('Not Fused', 'Fused')
-
-fused_limb_plot <- ggplot(data = ellicott_severity,
-                             aes( x = fused_limbs,
-                                  y = body_condition)) +
+ellicott_deformity_severity <- ggplot(data = ellicott_severity,
+       aes(x = severity_index,
+           y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
-  xlab("Fused Limbs?") +
+  xlab("Severity Index Score") +
   ylab("Body Condition") +
-  labs(title = "Ellicott Juveniles") +
+  labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 18),
-        axis.text = element_text(size = 16),
+  theme(axis.title = element_text(size = 20),
+        axis.text = element_text(size = 18),
         title = element_text(size = 20),
         plot.title = element_text(hjust = 0.5))
 
-fused_limb_plot
+ellicott_deformity_severity
+################################################################################
+
+
+
+
+
+
+
+################################################################################
+# 2. Ellicott Larvae Severity Effect
+################################################################################
+
+# 2.1 Filter Ellicott data ----------------------------------------------------
+
+## This filters Ellicott data where deformity severity and  body condition
+## could be calculated. It also calculates a severity index and body condition.
+ellicott_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |>
+  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  filter(pond == "Ellicott") |>
+  mutate(severity_index = case_when(
+    fused_limbs > 0 ~ 3,
+    extra_limbs > 0 ~ 2,
+    extra_toes > 0 ~ 1,
+    TRUE ~ 0
+  ),
+  svl = as.numeric(svl),
+  mass = as.numeric(mass)) |>
+  drop_na() |>
+  mutate(log_mass = log(mass),
+  log_svl = log(svl)) |>
+  mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
+         severity_index = as.character(severity_index))
+
+# 2.2 ANOVA of severity and body condition -------------------------------------
+## Levene test is significant. Variances are equal, so use oneway ANOVA.
+leveneTest(body_condition ~ severity_index, data = ellicott_larvae_severity)
+
+## Oneway ANOVA is significant
+ellicott_larvae_anova <- aov(body_condition ~ severity_index,
+                                  data = ellicott_larvae_severity)
+
+summary(ellicott_larvae_anova)
+
+# 2.3 Post-Hoc Test -----------------------------------------------------------
+TukeyHSD(ellicott_larvae_anova,
+          conf.level = 0.95)
+
+
+
+# 2.4 Visualization ------------------------------------------------------------
+levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
+
+
+ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
+                                      aes(x = severity_index,
+                                          y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Severity Index Score") +
+  ylab("Body Condition") +
+  labs(title = "Deformity Severity Effects on Ellicott Larvae") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        title = element_text(size = 20),
+        plot.title = element_text(hjust = 0.5))
+
+ellicott_larval_deformity_severity
+
+################################################################################
+
+
+
+
+
+
+
+################################################################################
+# 3. Prospect Larvae Severity Effect
+################################################################################
+
+# 3.1 Filter Prospect data ----------------------------------------------------
+
+## This filters Prospect data where deformity severity and  body condition
+## could be calculated. It also calculates a severity index and body condition.
+prospect_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |>
+  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  filter(pond == "Prospect") |>
+  mutate(severity_index = case_when(
+    fused_limbs > 0 ~ 3,
+    extra_limbs > 0 ~ 2,
+    extra_toes > 0 ~ 1,
+    TRUE ~ 0
+  ),
+  svl = as.numeric(svl),
+  mass = as.numeric(mass)) |>
+  drop_na() |>
+  mutate(log_mass = log(mass),
+         log_svl = log(svl)) |>
+  mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
+         severity_index = as.character(severity_index))
+
+
+
+# 3.2 ANOVA of severity and body condition -------------------------------------
+## Levene test is significant. Variances are equal, so use oneway ANOVA.
+leveneTest(body_condition ~ severity_index, data = prospect_larvae_severity)
+
+## Oneway ANOVA is significant
+prospect_larvae_anova <- aov(body_condition ~ severity_index,
+                             data = prospect_larvae_severity)
+
+summary(prospect_larvae_anova)
+
+
+# 3.3 Visualization ------------------------------------------------------------
+prospect__larval_deformity_severity <- ggplot(data = prospect_larvae_severity,
+                                              aes(x = severity_index,
+                                                  y = body_condition)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.1) +
+  xlab("Severity Index Score") +
+  ylab("Body Condition") +
+  labs(title = "Deformity Severity Effects on Prospect Larvae") +
+  theme_classic() +
+  theme(axis.title = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        title = element_text(size = 20),
+        plot.title = element_text(hjust = 0.5))
+
+prospect__larval_deformity_severity
+
+################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
