@@ -1,0 +1,328 @@
+date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back Left Deformity?,Back Right Deformity?,Back Left Extra Toes,Back Right Extra Toes,Back Left Extra Limbs,Back Right Extra Limbs,Back Left Fused Limbs,Back Right Fused Limbs,Back Left Fused Toes,Back Right Fused Toes,Front Left Deformity?,Front Right Deformity?,Front Left Extra Toes,Front Right Extra Toes,Front Left Extra Limbs,Front Right Extra Limbs,Front Left Fused Limbs,Front Right Fused Limbs,Front Right Fused Toes,Front Left Fused Toes,extra_toes,extra_limbs,fused_limbs,fused_toes,sum_deformity
+8/21/2024,Ellicott (inner),1,A,1.76,40,77,metamorph,0,9 back left toes; 6 back right toes; extra front left toe,,1,1,1,1,,,,,,,1,,1,,,,,,,,3,0,0,0,3
+11/3/2024,Ellicott (inner),1,A,2.4,39,80,juvenile,0,Back legs with extra toes; back left extra hand; back right is fused,,1,1,1,1,1,,,1,,,,,,,,,,,,,2,1,1,0,4
+11/2/2024,Ellicott (inner),8,A,1.52,42,74,juvenile,0,back left foot with 5 extra toes; 6 extra toes on back right foot (forms a clawfoot),,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+11/2/2024,Ellicott (inner),3,B,,,,juvenile,0,extra toes on both hind legs; both back legs fused,,1,1,1,1,,,1,1,,,,,,,,,,,,,2,0,2,0,4
+11/23/2024,Ellicott (inner),2,BB,2.39,46,86,juvenile,0,extra back left toe; extra back right toe,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+11/23/2024,Ellicott (inner),3,B,0.84,41,72,juvenile,0,extra back right toes; extra back left toes; back left leg fused to body,,1,1,1,1,,,1,,,,,,,,,,,,,,2,0,1,0,3
+11/23/2024,Ellicott (inner),1,A,2.05,46,84,juvenile,0,both hind limbs fused to body; extra toes on both hind feet,,1,1,1,1,,,1,1,,,,,,,,,,,,,2,0,2,0,4
+11/12/2024,Prospect,3,A,3.01,48,92,juvenile,0,10 toes on back right foot; 7 toes on back left foot,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+7/19/2024,Ellicott (inner),6,A,2.13,43,81,metamorph,0,extra toes on both back feet; extra back left leg,,1,1,1,1,1,,,,,,,,,,,,,,,,2,1,0,0,3
+7/24/2024,Ellicott (inner),5,A,2.37,42,85,metamorph,0,2 extra back right toes; extra front left toe,,,1,,1,,,,,,,1,,1,,,,,,,,2,0,0,0,2
+8/7/2024,Ellicott (inner),2,B,2.37,45,89,metamorph,1,greater than 10 toes on both hind limbs,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+8/19/2024,Ellicott (inner),3,A,2.46,41,84,metamorph,1,extra back left toe; extra back right toe,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+8/20/2024,Ellicott (inner),1,A,1.4,42,71,metamorph,0,both hind limbs fused to body; both hind feet had many extra toes,,1,1,1,1,,,1,1,,,,,,,,,,,,,2,0,2,0,4
+8/21/2024,Ellicott (inner),3,B,3.2,45,93,metamorph,1,extra back right toe; extra front right toe,,,1,,1,,,,,,,,1,,1,,,,,,,2,0,0,0,2
+11/2/2024,Ellicott (inner),2,BB,,,,juvenile,0,back left foot with many extra toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),3,B,,,,juvenile,0,extra toes on back left leg,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),3,B,,,,juvenile,0,extra back right toes; back right leg is fused,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+11/2/2024,Ellicott (inner),5,B,2.15,48,85,juvenile,0,3 extra toes on back right,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),4,B,1.83,47,82,juvenile,0,2 extra back right toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),8,B,1.44,42,73,juvenile,0,back right leg fused to body; 4 extra toes on back right foot,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+11/2/2024,Ellicott (inner),6,A,1.69,43,77,juvenile,0,4 extra back right toes; back right leg fused to body,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,back left leg fused; back left foot has an extra toe,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,extra toes on back right foot,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,many extra toes on back right foot,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,back left foot with many extra toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/12/2024,Ellicott (inner),2,A,1.96,41,70,juvenile,0,2 extra back right toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/23/2024,Ellicott (inner),2,B,1.3,42,71,juvenile,0,back right leg fused with 13 toes,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+11/23/2024,Ellicott (inner),2,A,2.3,48,87,juvenile,0,back right leg fused; front right leg has 2 extra toes,,,1,,,,,,1,,,,1,,1,,,,,,,1,0,1,0,2
+11/23/2024,Ellicott (inner),2,A,1.42,42,82,juvenile,0,back right leg has 3 feet; back left foot is a mass of toes,,1,1,1,,,1,,,,,,,,,,,,,,,1,1,0,0,2
+11/23/2024,Ellicott (inner),4,A,1.42,41,73,juvenile,0,extra back left foot; back right foot has 2 extra toes,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+11/23/2024,Ellicott (inner),4,A,1.61,44,68,juvenile,0,TL tail damage; extra back right toes; back left leg fused,,1,1,,1,,,1,,,,,,,,,,,,,,1,0,1,0,2
+11/23/2024,Ellicott (inner),4,A,1.45,,,juvenile,1,Back left and back right legs fused to body; extra back left toes,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
+11/23/2024,Ellicott (inner),4,A,1.54,,,juvenile,0,extra back left foot; back left leg fused to body; extra back right toes,,1,1,,1,1,,1,,,,,,,,,,,,,,1,1,1,0,3
+11/23/2024,Ellicott (inner),4,A,1.6,,,juvenile,0,3 back right feet; back right legs fused; back left leg fused; extra back left toes,,1,1,1,,,1,1,1,,,,,,,,,,,,,1,1,2,0,4
+11/23/2024,Ellicott (inner),4,A,1.36,,,juvenile,0,back right leg fused; extr back right toes,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+11/23/2024,Ellicott (inner),7,B,1.75,43,82,juvenile,0,back left foot has 2 extra toes; growth on back; vent is obstructed and bleeding,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/23/2024,Ellicott (inner),7,B,1.65,43,81,juvenile,0,both hind legs fused to body; extra toes on back left foot,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
+11/23/2024,Ellicott (inner),5,A,1.63,42,83,juvenile,1,2 extra back left toes; extra back left foot,,1,,1,,1,,,,,,,,,,,,,,,,1,1,0,0,2
+11/23/2024,Ellicott (inner),5,A,1.52,44,83,juvenile,0,Both hind limbs fused to body; back left foot has extra toes,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
+11/24/2024,Ellicott (inner),7,A,1.3,42,73,juvenile,0,both hind limbs fused to body; back left foot has 10 toes,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
+11/12/2024,Prospect,7,A,3.46,52,97,juvenile,0,12 toes and an extra foot on back right side,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+11/23/2024,Prospect,1,A,2.27,43,81,juvenile,0,back right foot has 11 toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/23/2024,Prospect,6,A,3,45,94,juvenile,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/23/2024,Ellicott (inner),6,B,2.13,50,93,juvenile_male,0,extra toes on back right foot; vent swollen,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/15/2024,Ellicott (inner),8,A,2.25,44,74,metamorph,1,TL tail damage; extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/16/2024,Ellicott (inner),5,A,2.81,43,82,metamorph,0,back right foot with 10 toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/17/2024,Ellicott (inner),4,B,1.83,42,74,metamorph,0,back left foot with many toes; back right leg fused to body,,1,1,1,,,,,1,,,,,,,,,,,,,1,0,1,0,2
+7/17/2024,Ellicott (inner),5,A,2.44,45,62,metamorph,1,TL tail damage; back left with extra toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/17/2024,Ellicott (inner),3,A,1.94,41,72,metamorph,1,back right foot has many extra toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/18/2024,Ellicott (inner),5,B,2.77,47,88,metamorph,0,back right foot has extra toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/18/2024,Ellicott (inner),6,A,2.34,46,81,metamorph,0,extra back left foot; right foot is a mass of toes,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+7/18/2024,Ellicott (inner),2,B,2.53,46,89,metamorph,1,extra back right foot; extra toes,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+7/19/2024,Ellicott (inner),6,B,2.13,44,82,metamorph,0,front right foot has extra toe,,,,,,,,,,,,,1,,1,,,,,,,1,0,0,0,1
+7/19/2024,Ellicott (inner),7,B,2,40,79,metamorph,0,back right leg has extra toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/20/2024,Ellicott (inner),1,A,2.53,43,84,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/21/2024,Ellicott (inner),4,B,1.75,41,77,metamorph,0,extra back right toe; extra back left foot,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+7/22/2024,Ellicott (inner),5,A,2.97,41,90,metamorph,1,tail fin not fully absorbed; extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/22/2024,Ellicott (inner),8,B,1.75,39,72,metamorph,1,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/23/2024,Ellicott (inner),1,B,2.49,45,88,metamorph,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/25/2024,Ellicott (inner),1,B,0.93,35,57,metamorph,0,extra back right toes; back left leg fused to body,,1,1,,1,,,1,,,,,,,,,,,,,,1,0,1,0,2
+7/25/2024,Ellicott (inner),5,A,2.06,40,76,metamorph,1,tail damage not affecting TL; deformed gills; extra back right foot; extra back right toe,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+7/27/2024,Ellicott (inner),2,A,3.13,44,87,metamorph,1,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/28/2024,Ellicott (inner),4,B,2.51,43,83,metamorph,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/30/2024,Ellicott (inner),5,B,2.23,41,82,metamorph,0,2 extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+7/31/2024,Ellicott (inner),1,B,2.7,44,84,metamorph,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/1/2024,Ellicott (inner),8,A,1.41,40,69,metamorph,0,extra back right foot; extra back right toes,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+8/1/2024,Ellicott (inner),4,B,2.71,45,92,metamorph,0,7 toes on back right foot,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/2/2024,Ellicott (inner),8,A,1.66,42,72,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/3/2024,Ellicott (inner),8,A,2.2,44,86,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/3/2024,Ellicott (inner),5,A,2.13,41,79,metamorph,1,many extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/4/2024,Ellicott (inner),1,B,2.2,41,89,metamorph,0,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/6/2024,Ellicott (inner),5,A,1.85,41,80,metamorph,0,back left fused w/ 2 extra toes,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/9/2024,Ellicott (inner),2,A,1.29,39,69,metamorph,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/10/2024,Ellicott (inner),8,B,1.95,43,85,metamorph,0,back right foot fused w/ many extra fingers,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+8/10/2024,Ellicott (inner),1,B,1.77,43,77,metamorph,0,8 back right toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/12/2024,Ellicott (inner),6,A,1.5,42,75,metamorph,0,extra back left foot; extra back left toes,,1,,1,,1,,,,,,,,,,,,,,,,1,1,0,0,2
+8/12/2024,Ellicott (inner),7,B,1.91,41,80,metamorph,0,back left leg fused to body; back left with extra toes,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/14/2024,Ellicott (inner),2,A,2.22,42,78,metamorph,1,back right leg fused to body; back left foot has 11 toes,,1,1,1,,,,,1,,,,,,,,,,,,,1,0,1,0,2
+8/15/2024,Ellicott (inner),3,A,2.19,40,80,metamorph,1,7 toes on back left foot,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/16/2024,Ellicott (inner),3,A,2.45,42,88,metamorph,1,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/16/2024,Ellicott (inner),3,A,2.21,42,87,metamorph,1,back right leg fused to body; back right foot with extra toes,,,1,,1,,,,1,,,,,,,,,,,,,1,0,1,0,2
+8/16/2024,Ellicott (inner),3,B,2.67,46,88,metamorph,1,extra back right leg; back right foot with extra toe,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+8/16/2024,Ellicott (inner),3,B,1.86,38,76,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/16/2024,Ellicott (inner),4,B,1.95,40,77,metamorph,1,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/17/2024,Ellicott (inner),2,A,2.66,42,91,metamorph,1,extra back right foot; 13 toes on back right foot; tail damage not affecting TL,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+8/17/2024,Ellicott (inner),3,A,2.09,40,81,metamorph,1,back left leg fused to body; back left foot with extra toes,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/17/2024,Ellicott (inner),1,A,1.33,39,61,metamorph,0,back left leg fused with extra toes; back right foot has a bifurcated toe; tail regeneration,,1,1,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/18/2024,Ellicott (inner),4,B,2.26,43,84,metamorph,0,extra back left leg; extra back right toe,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+8/19/2024,Ellicott (inner),3,A,2.62,42,84,metamorph,1,back left leg fused to body with extra toe,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/19/2024,Ellicott (inner),3,B,2.28,42,84,metamorph,1,2 extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/19/2024,Ellicott (inner),8,B,2.26,42,83,metamorph,0,extra back right toe,,,1,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/20/2024,Ellicott (inner),3,A,3.01,43,90,metamorph,1,extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/21/2024,Ellicott (inner),3,A,2.19,42,81,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/21/2024,Ellicott (inner),8,B,1.85,43,79,metamorph,0,extra back right foot; extra back right toes,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+8/22/2024,Ellicott (inner),4,B,2.22,43,84,metamorph,1,front left foot with 8 toes,,,,,,,,,,,,1,,1,,,,,,,,1,0,0,0,1
+8/22/2024,Ellicott (inner),6,B,2.09,41,84,metamorph,0,extra back right foot; back right leg fused to body; extra back right toes,,,1,,1,,1,,1,,,,,,,,,,,,,1,1,1,0,3
+8/24/2024,Ellicott (inner),3,A,2.61,42,86,metamorph,1,extra back right toe nub,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/24/2024,Ellicott (inner),6,B,2.55,46,86,metamorph,0,back right leg fused to body with extra toes; extra back right foot,,1,1,1,,,1,1,,,,,,,,,,,,,,1,1,1,0,3
+7/18/2024,Ellicott (outer),5,B,2.75,44,83,metamorph,0,extra toe on back left foot,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/15/2024,Prospect,1,A,2.8,44,92,metamorph,1,gill nubs; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/17/2024,Prospect,1,A,2.8,44,92,metamorph,1,Same individual as on 6/15/2024; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/17/2024,Prospect,2,A,3.3,45,94,metamorph,0,extra back left foot; back right foot with extra toes,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+6/18/2024,Prospect,8,A,3,46,84,metamorph,1,TL tail damage; 4 extra toes on back right; gill nubs,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/25/2024,Prospect,5,A,2.7,48,93,metamorph,0,extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Prospect,6,B,2.47,45,89,metamorph,1,extra back left toe; back left leg fused to body,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+8/23/2024,Ellicott (inner),3,A,2.31,43,84,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+8/23/2024,Ellicott (inner),3,B,2.01,42,82,metamorph,1,9 back right toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Ellicott (inner),5,B,2.18,46,87,juvenile,0,back left leg fused; back left also has 4 extra toes; back right with 2 fused toes,,1,1,1,,,,1,1,,1,,,,,,,,,,,1,0,2,1,4
+8/4/2024,Ellicott (inner),3,A,2.99,46,98,metamorph,1,extra back right toe; 2 back left toes conjoined,,1,1,,1,,,,,1,,,,,,,,,,,,1,0,0,1,2
+8/6/2024,Ellicott (inner),6,A,1.68,39,71,metamorph,0,back left leg fused w/ 12 toes;back right with 2 conjoined toes,,1,1,1,,,,1,,,1,,,,,,,,,,,1,0,1,1,3
+8/12/2024,Ellicott (inner),7,B,1.97,41,76,metamorph,0,conjoined back right toes; back left leg fused to body; back left foot extra toes,,1,1,1,,,,1,,,1,,,,,,,,,,,1,0,1,1,3
+11/3/2024,Ellicott (inner),5,B,1.8,43,74,juvenile,0,back right leg unusuable; extra hand,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+11/2/2024,Ellicott (inner),2,A,1.4,39,75,juvenile,0,back left leg with two hands,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+11/2/2024,Ellicott (inner),2,A,1.9,42,81,juvenile,0,back right leg has two feet that are fused,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+11/2/2024,Ellicott (inner),1,B,1.4,46,72,juvenile,0,back right leg fused to body;,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+11/2/2024,Ellicott (inner),2,B,,,,juvenile,0,extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+11/2/2024,Ellicott (inner),3,AA,,,,juvenile,0,both hind limbs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+11/2/2024,Ellicott (inner),3,B,,,,juvenile,0,extra back hand (left or right not provided in datasheet),,,,,,,,,,,,,,,,,,,,,,0,1,0,0,1
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,back right leg fused to body,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+11/2/2024,Ellicott (inner),4,A,,,,juvenile,0,back left leg fused,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+11/12/2024,Ellicott (inner),2,A,1.65,44,78,juvenile,0,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+11/12/2024,Ellicott (inner),1,A,1.69,36,74,juvenile,0,extra back right foot; back right leg fused to body,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+11/12/2024,Ellicott (inner),8,A,1.35,42,53,juvenile,0,back left leg missing a toe; back right leg fused; extra back right foot,,1,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+11/12/2024,Ellicott (inner),3,B,1.24,32,69,juvenile,0,2 extra back left feet; back left leg fused to body,,1,,,,1,,1,,,,,,,,,,,,,,0,1,1,0,2
+11/12/2024,Ellicott (inner),2,B,2.15,43,89,juvenile,0,extra back right foot; back right leg fused to body,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+11/23/2024,Ellicott (inner),4,A,1.09,41,72,juvenile,0,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+11/23/2024,Ellicott (inner),3,B,2.3,,,juvenile,0,swollen cloaca; extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+11/23/2024,Ellicott (inner),3,A,2.38,,,juvenile,0,back right leg fused; extra back right foot,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+11/23/2024,Ellicott (inner),1,A,1.66,44,83,juvenile,0,both hind limbs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+11/23/2024,Ellicott (inner),1,A,1.64,41,73,juvenile,0,back left leg fused,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+11/23/2024,Ellicott (inner),7,B,1.6,44,81,juvenile,0,extra back left foot; cloaca slightly swollen,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+11/23/2024,Ellicott (inner),7,A,1.17,41,73,juvenile,1,"very dull, no color; extra back right foot; both hind legs fused",,1,1,,,,1,1,1,,,,,,,,,,,,,0,1,2,0,3
+11/23/2024,Ellicott (inner),5,A,1.85,45,85,juvenile,0,back right leg fused to body; back right has small toes; hind limb length = 16mm,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+11/23/2024,Ellicott (inner),5,A,1.35,42,74,juvenile,0,both hind legs fused to budy; extra limb bud on back right; extra back left foot,,1,1,,,1,1,1,1,,,,,,,,,,,,,0,2,2,0,4
+11/23/2024,Ellicott (inner),4,B,1.58,40,70,juvenile,0,back right leg is fused to vent; back left leg has 3 fused hands,,1,1,,,1,,1,1,,,,,,,,,,,,,0,1,2,0,3
+11/23/2024,Ellicott (inner),4,B,1.54,42,83,juvenile,0,both hind limbs fused to body; extra back left foot; extra back right limb bud,,1,1,,,1,1,1,1,,,,,,,,,,,,,0,2,2,0,4
+11/23/2024,Ellicott (inner),4,B,1.66,44,82,juvenile,0,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+11/24/2024,Ellicott (inner),2,B,1.17,40,71,juvenile,0,back right leg fused to body; back left foot is bifurcated,,1,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+11/25/2024,Ellicott (inner),4,A,1.84,39,86,juvenile,0,both hind legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+11/25/2024,Ellicott (inner),3,A,0.88,37,74,juvenile,0,both hind legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+7/16/2024,Ellicott (inner),4,A,2.08,44,82,metamorph,1,back right leg fused to body,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+7/16/2024,Ellicott (inner),5,A,1.77,44,75,metamorph,0,extra foot; club foot on hind limbs,,1,1,,,,,,,,,,,,,,,,,,,0,1,0,0,1
+7/16/2024,Ellicott (inner),5,A,1.92,41,75,metamorph,0,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+7/16/2024,Ellicott (inner),5,B,1.81,41,74,metamorph,0,extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+7/16/2024,Ellicott (inner),8,A,1.61,39,74,metamorph,0,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+7/18/2024,Ellicott (inner),5,A,2.55,47,84,metamorph,1,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+7/19/2024,Ellicott (inner),5,A,2.2,42,85,metamorph,0,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+7/19/2024,Ellicott (inner),6,A,2.04,42,67,metamorph,1,TL tail damage; missing back right leg (injury); extra back left leg,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+7/20/2024,Ellicott (inner),5,A,1.9,41,78,metamorph,0,TL tail damage; back right leg fused to body,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+7/20/2024,Ellicott (inner),1,A,2.04,42,80,metamorph,0,back right leg fused and clubbed,,,1,,,,,,1,,,,,,,,,,,,,0,0,1,0,1
+7/22/2024,Ellicott (inner),6,A,2.59,45,85,metamorph,1,hind legs fused to body; extra back left foot,,1,1,,,1,,1,1,,,,,,,,,,,,,0,1,2,0,3
+7/26/2024,Ellicott (inner),5,A,2.22,42,86,metamorph,1,extra back right foot; back right foot clubbed,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+7/31/2024,Ellicott (inner),6,A,1.34,41,73,metamorph,0,back legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+8/7/2024,Ellicott (inner),5,A,1.96,44,68,metamorph,1,extra back right foot; large lump on tail,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/12/2024,Ellicott (inner),2,A,1.91,42,83,metamorph,0,extra back left foot; back left leg non-functional,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/12/2024,Ellicott (inner),7,A,2.68,46,86,metamorph,0,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/14/2024,Ellicott (inner),8,B,1.82,44,73,metamorph,0,tail regeneration; back right foot fused; extra back right foot,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+8/16/2024,Ellicott (inner),3,A,2.47,41,81,metamorph,1,extra back left foot; tail damage not affecting TL,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/17/2024,Ellicott (inner),3,A,2.35,41,85,metamorph,1,extra front right leg; front right foot is backwards,,,,,,,,,,,,,1,,,,1,,,,,0,1,0,0,1
+8/17/2024,Ellicott (inner),3,B,2.77,44,91,metamorph,1,extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/18/2024,Ellicott (inner),3,B,2.57,42,87,metamorph,1,extra back right leg,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/18/2024,Ellicott (inner),6,B,2.2,43,86,metamorph,1,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/19/2024,Ellicott (inner),2,A,1.95,43,74,metamorph,0,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+8/19/2024,Ellicott (inner),4,B,2.65,43,89,metamorph,1,extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/19/2024,Ellicott (inner),1,A,1.74,42,80,metamorph,0,extra back left leg,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/19/2024,Ellicott (inner),1,A,1.48,42,71,metamorph,0,small extra back right foot,,,1,,,,1,,,,,,,,,,,,,,,0,1,0,0,1
+8/21/2024,Ellicott (inner),2,A,2.53,43,90,metamorph,1,extra back left leg,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/21/2024,Ellicott (inner),3,B,2.63,42,91,metamorph,1,front left foot with large nub between middle fingers,,,,,,,,,,,,1,,,,,,,,,,1,0,0,0,1
+8/21/2024,Ellicott (inner),4,B,2.77,45,92,metamorph,1,extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+8/22/2024,Ellicott (inner),3,B,2.25,43,86,metamorph,1,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+8/24/2024,Ellicott (inner),4,A,2.27,45,88,metamorph,0,extra back left foot; back left leg fused to body,,1,,,,1,,1,,,,,,,,,,,,,,0,1,1,0,2
+11/2/2024,Ellicott (inner),2,A,1.4,42,80,metamorph,1,cysts on gills; back left leg fused; no yellow coloration,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
+6/19/2024,Prospect,4,B,3.2,45,91,metamorph,1,extra left and right foot,,1,1,,,1,1,,,,,,,,,,,,,,,0,2,0,0,2
+6/25/2024,Prospect,4,B,3.6,45,91,metamorph,1,no left eye; extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+7/7/2024,Prospect,2,B,1.71,47,79,metamorph,0,TL tail damage; both hind legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+8/23/2024,Ellicott (inner),3,B,2.74,44,90,metamorph,1,extra back left foot; back left leg fused to body,,1,,,,1,,1,,,,,,,,,,,,,,0,1,1,0,2
+8/23/2024,Ellicott (inner),8,A,2.01,43,81,metamorph,0,extra back right foot; back right leg is fused,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
+7/12/2024,Ellicott (inner),2,A,2.49,44,86,metamorph,0,,0,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/12/2024,Ellicott (inner),2,B,2.5,44,84,metamorph,1,back left limb regenerating,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/14/2024,Ellicott (inner),2,A,2.38,40,74,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/15/2024,Ellicott (inner),1,B,3.01,44,91,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/16/2024,Ellicott (inner),5,A,2.47,42,85,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/16/2024,Ellicott (inner),5,A,2.27,42,81,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/16/2024,Ellicott (inner),5,B,1.94,42,71,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/16/2024,Ellicott (inner),5,B,2.39,43,84,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/17/2024,Ellicott (inner),6,B,2.9,43,84,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/17/2024,Ellicott (inner),3,A,2.6,43,92,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/18/2024,Ellicott (inner),6,B,2.61,41,63,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/19/2024,Ellicott (inner),5,A,2.71,44,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/19/2024,Ellicott (inner),5,B,2.36,42,90,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/19/2024,Ellicott (inner),2,A,2.72,40,92,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/19/2024,Ellicott (inner),3,A,2.47,43,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/19/2024,Ellicott (inner),3,A,2.34,40,88,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/20/2024,Ellicott (inner),5,A,2.72,42,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/20/2024,Ellicott (inner),2,A,2.27,41,85,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/21/2024,Ellicott (inner),2,A,2.32,41,83,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/21/2024,Ellicott (inner),2,A,2.05,42,84,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/22/2024,Ellicott (inner),2,A,2.34,40,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/22/2024,Ellicott (inner),2,B,2.5,46,91,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/25/2024,Ellicott (inner),7,B,1.95,40,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/25/2024,Ellicott (inner),5,A,2.8,44,89,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/26/2024,Ellicott (inner),6,A,1.59,37,58,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/28/2024,Ellicott (inner),3,A,2.07,44,69,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/30/2024,Ellicott (inner),8,A,2.34,42,70,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/31/2024,Ellicott (inner),3,A,2.92,44,92,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/31/2024,Ellicott (inner),8,A,2.21,45,85,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/31/2024,Ellicott (inner),6,A,2.18,41,55,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/2/2024,Ellicott (inner),3,B,2.49,44,80,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/2/2024,Ellicott (inner),6,B,1.97,45,89,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/3/2024,Ellicott (inner),7,B,2.21,44,82,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/6/2024,Ellicott (inner),1,A,1.85,42,75,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/7/2024,Ellicott (inner),2,A,1.68,43,77,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/7/2024,Ellicott (inner),3,A,2.62,43,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/7/2024,Ellicott (inner),5,B,2.06,44,83,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/8/2024,Ellicott (inner),2,A,1.68,42,74,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/9/2024,Ellicott (inner),4,B,2.5,41,82,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/10/2024,Ellicott (inner),3,A,2.62,42,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/12/2024,Ellicott (inner),3,A,3,41,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/12/2024,Ellicott (inner),3,B,2.77,45,90,metamorph,1,dorsal fin still reabsorbing,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/12/2024,Ellicott (inner),5,B,2.37,46,85,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/13/2024,Ellicott (inner),3,A,2.55,43,87,metamorph,1,tail damage not affecting TL,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/13/2024,Ellicott (inner),3,B,2.16,42,86,metamorph,1,tail damage not affecting TL,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/13/2024,Ellicott (inner),7,B,2.39,43,91,metamorph,0,tail damage not affecting TL,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/13/2024,Ellicott (inner),8,A,1.73,41,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/15/2024,Ellicott (inner),2,A,3.08,45,92,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/15/2024,Ellicott (inner),2,A,1.81,40,86,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/15/2024,Ellicott (inner),3,A,2.4,42,85,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/15/2024,Ellicott (inner),8,B,1.6,39,77,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),2,A,2.76,43,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),3,A,3.01,44,95,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),3,B,2.88,44,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),3,B,2.58,43,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),3,B,2.99,44,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/16/2024,Ellicott (inner),3,B,3.01,41,90,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),2,A,1.9,41,83,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),2,A,2.81,44,96,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),2,A,2.93,46,91,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),3,A,2.99,40,89,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),3,A,2.69,41,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/17/2024,Ellicott (inner),8,B,2.63,45,81,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),3,B,3.15,46,95,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),3,B,2.58,46,77,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),5,A,3.01,45,88,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),5,A,2.99,44,91,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),8,A,2.79,44,88,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/18/2024,Ellicott (inner),1,B,2.39,43,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/19/2024,Ellicott (inner),2,A,2.87,42,84,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/19/2024,Ellicott (inner),3,A,2.86,42,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/19/2024,Ellicott (inner),3,B,2.38,42,69,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/19/2024,Ellicott (inner),4,B,2.3,42,84,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/19/2024,Ellicott (inner),8,B,1.74,41,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/20/2024,Ellicott (inner),2,A,1.81,41,81,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/20/2024,Ellicott (inner),4,A,2.45,40,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/20/2024,Ellicott (inner),4,B,2.59,41,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/20/2024,Ellicott (inner),8,A,2.08,42,82,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/21/2024,Ellicott (inner),2,A,2.64,44,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/21/2024,Ellicott (inner),2,A,1.96,39,75,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/21/2024,Ellicott (inner),1,B,1.75,41,82,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/22/2024,Ellicott (inner),3,A,2.28,42,83,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/22/2024,Ellicott (inner),7,A,2.17,43,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/23/2024,Ellicott (inner),3,B,2.86,45,90,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/23/2024,Ellicott (inner),7,B,2.5,43,86,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/24/2024,Ellicott (inner),3,A,2.39,44,87,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/24/2024,Ellicott (inner),3,B,1.51,38,67,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/24/2024,Ellicott (inner),7,A,1.56,40,68,metamorph,0,tail regeneration,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+8/24/2024,Ellicott (inner),7,B,1.58,40,59,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,AA,1.9,39,79,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,AA,1.7,38,80,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,AA,1.9,38,78,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,2.5,43,87,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,1.9,35,75,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,2.4,40,85,juvenile,0,cyst on tail,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,1.7,33,65,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,2,32,70,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),2,A,2,37,80,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),1,B,2.2,42,90,juvenile,0,"""looks a little weird""",,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),1,B,2.6,42,90,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),3,BB,,,,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),3,B,,,,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),1,A,1.63,40,76,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),1,A,1.59,45,77,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),1,A,2.22,43,84,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),7,B,2.77,43,90,juvenile,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),7,A,1.89,42,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Ellicott (inner),6,B,2.24,46,76,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),1,A,2.3,42,87,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),1,A,3.2,45,95,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),8,B,2.7,42,90,juvenile_male,0,swollen cloaca despite small size,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),3,BB,2.8,43,92,juvenile_male,0,swollen cloaca despite small size,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),3,B,2.1,45,86,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),2,B,2.4,42,86,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),2,AA,2.3,45,91,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Ellicott (inner),2,AA,2.51,46,95,juvenile_male,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),8,A,2.58,49,90,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),8,A,2.34,45,89,juvenile_male,0,swollen cloaca but small animal,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),8,A,2.53,41,83,juvenile,0,cloaca slightly swollen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),6,B,1.71,45,75,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),6,B,1.87,34,72,juvenile,0,eating a spider when captured,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Ellicott (inner),2,B,1.61,42,75,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/13/2024,Ellicott (inner),6,B,2.73,45,96,juvenile_male,0,cloaca swollen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),3,B,1.96,,,juvenile,0,swollen vent,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),3,B,1.92,42,82,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),2,B,2.67,54,98,adult_male,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),8,B,2.26,48,92,juvenile_male,0,swollen vent; back leg length = 15mm,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),8,A,1.9,47,90,juvenile_male,0,swollen vent; body was irritated and red,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Ellicott (inner),5,A,2.99,51,93,adult_male,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/25/2024,Ellicott (inner),7,B,2.15,45,88,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/25/2024,Ellicott (inner),7,B,2.2,41,83,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/25/2024,Ellicott (inner),6,B,2.76,40,96,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/25/2024,Ellicott (inner),2,B,1.78,39,79,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/18/2024,Ellicott (outer),8,A,2.2,39,81,metamorph,1,gill nubs,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/19/2024,Ellicott (outer),8,A,2.6,45,82,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/22/2024,Ellicott (outer),7,B,2.9,45,82,metamorph,1,gill nubs; TL tail damage; tail regen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/23/2024,Ellicott (outer),8,A,2.4,42,81,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/26/2024,Ellicott (outer),7,A,3.3,44,85,metamorph,1,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/26/2024,Ellicott (outer),7,A,2.6,43,78,metamorph,1,tail regen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/26/2024,Ellicott (outer),8,A,2,42,77,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/29/2024,Ellicott (outer),8,A,1.95,40,80,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/29/2024,Ellicott (outer),8,A,2.8,44,89,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/30/2024,Ellicott (outer),8,B,2.08,42,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/2/2024,Ellicott (outer),7,A,2.6,44,86,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/7/2024,Ellicott (outer),7,A,2.73,44,82,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/7/2024,Ellicott (outer),7,B,2.17,41,78,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/7/2024,Ellicott (outer),8,A,2.14,39,73,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/12/2024,Ellicott (outer),7,A,2.4,43,81,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/17/2024,Ellicott (outer),7,A,2.17,42,68,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/18/2024,Ellicott (outer),8,A,2.02,43,83,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
