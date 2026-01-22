@@ -26,7 +26,7 @@ library(cowplot)
 
 # 1.1 Read and transform data --------------------------------------------------
 ellicott_juv <- read_excel("data/processed/ellicott_juveniles_with_measurements.xlsx") |>
-  select(mass, svl, deformities) |>
+  dplyr::select(mass, svl, deformities) |>
   mutate(log_mass = log(mass),
          log_svl = log(svl),
          deformities = as.factor(deformities))
@@ -54,7 +54,7 @@ ellicott_juv_anova
 ################################################################################
 # 2.1 Read and transform data --------------------------------------------------
 prospect_juv <- read_excel("data/processed/prospect_juveniles_with_measurements.xlsx") |>
-  select(mass, svl, deformities) |>
+  dplyr::select(mass, svl, deformities) |>
   mutate(log_mass = log(mass),
          log_svl = log(svl),
          deformities = as.factor(deformities))
@@ -81,7 +81,7 @@ summary(prospect_juv_anova)
 ################################################################################
 # 3.1 Read and transform data --------------------------------------------------
 ellicott_larv <- read_excel("data/raw/ellicott_larvae_raw.xlsx") |>
-  select(mass, svl, deformed) |>
+  dplyr::select(mass, svl, deformed) |>
   drop_na() |>
   mutate(log_mass = log(as.numeric(mass)),
          log_svl = log(as.numeric(svl)),
@@ -110,7 +110,7 @@ TukeyHSD(ellicott_larv_anova)
 ################################################################################
 # 4.1 Read and transform data --------------------------------------------------
 prospect_larv <- read_excel("data/raw/prospect_larvae_raw.xlsx") |>
-  select(mass, svl, deformed) |>
+  dplyr::select(mass, svl, deformed) |>
   drop_na() |>
   mutate(log_mass = log(as.numeric(mass)),
          log_svl = log(as.numeric(svl)),
@@ -152,7 +152,7 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
         title = element_text(size = 20, hjust = 0.5),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0))
 
 ellicott_juv_plot
 
@@ -171,7 +171,7 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
         title = element_text(size = 20),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0))
 
 prospect_juv_plot
 
@@ -190,7 +190,7 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
         title = element_text(size = 20),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0))
 
 ellicott_larv_plot
 
@@ -209,7 +209,7 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
   theme(axis.title = element_text(size = 18),
         axis.text = element_text(size = 16),
         title = element_text(size = 20),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0))
 
 prospect_larv_plot
 
@@ -232,6 +232,19 @@ larval_plots <- plot_grid(ellicott_larv_plot,
 
 ggsave("results/img/larval_plots.jpg", plot = larval_plots)
 
+## All four plots
+full_plots <- plot_grid(ellicott_juv_plot,
+                        prospect_juv_plot,
+                        ellicott_larv_plot,
+                        prospect_larv_plot,
+                        ncol = 2,
+                        labels = c("A", "B", "C", "D"),
+                        label_size = 20)
+
+full_plots
+ggsave("results/img/all_body_condition_plots.jpg", plot = full_plots,
+       width = 20,
+       height = 15)
 ################################################################################
 
 
