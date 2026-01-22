@@ -1,0 +1,118 @@
+pond,date,method,effort,species,mass,svl,tl,age/sex,development,genetic,temperature,deformed,comments,extra_toes,extra_limbs,fused_limbs,sum_deformity
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.3,38,80,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,4,36,82,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.8,39,82,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.8,34,68,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,5.3,47,76,L,1,no,,0,TL tail damage; possible recap (clean tail clip),0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.28,37,80,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,1,19,55,L,1,no,,0,leucistic,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.99,36,55,L,1,no,,0,TL tail damage,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,1.54,34,61,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.51,41,70,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.34,34,76,L,1,no,,0,Tail damage not affecting TL,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.93,39,78,L,1,no,,0,,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.44,40,71,L,1,no,,0,TL tail damage; likely a recapture,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.54,41,70,L,1,no,,0,TL tail damage; not a recap,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.11,41,72,L,3,no,28.5,0,RESAMPLE; TL tail damage,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,4.35,45,96,L,1,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.85,44,82,L,1,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.85,43,87,L,1,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.37,44,96,L,3,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.67,43,86,L,1,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.55,40,77,L,1,no,28.5,0,RESAMPLE,0,0,0,0
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.79,41,85,L,4,no,29,0,RESAMPLE,0,0,0,0
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,3.01,42,91,L,4,no,29,0,RESAMPLE,0,0,0,0
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.99,42,90,L,4,no,29,0,RESAMPLE,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,5.2,39,94,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.9,42,90,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,5,43,92,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,3.5,40,93,L,1,yes,,0,tail damage,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,5,40,95,L,1,yes,,0,tail damage,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.2,40,86,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.6,45,95,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.2,40,85,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.2,41,95,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,3.4,41,81,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.3,38,92,L,1,yes,,0,tail damage,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.7,41,85,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.3,43,87,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.6,45,92,L,1,yes,,0,leech on tail,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.1,41,86,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,3.4,36,85,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,3.7,37,86,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.8,43,92,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.9,43,92,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.5,45,96,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,4.1,42,90,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval dipnet,326,SCLTS,4.3,41,83,L,1,yes,,0,,0,0,0,0
+Prospect,5/19/2024,larval dipnet,326,SCLTS,3.9,44,86,L,1,yes,,0,leech on toes;TL tail damage,0,0,0,0
+Prospect,5/19/2024,larval dipnet,326,SCLTS,4.8,44,73,L,1,yes,,0,leech on chest; TL tail damage,0,0,0,0
+Prospect,5/19/2024,larval dipnet,326,SCLTS,3.8,44,93,L,1,yes,,0,,0,0,0,0
+Prospect,6/24/24,larval dipnet,202,SCLTS,6.5,46,94,L,1,no,26.4,0,RESAMPLE,0,0,0,0
+Prospect,6/24/24,larval dipnet,202,SCLTS,4.4,45,90,L,1,no,26.4,0,RESAMPLE,0,0,0,0
+Prospect,6/24/24,larval dipnet,202,SCLTS,5.5,47,96,L,1,no,26.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.42,47,95,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.4,44,96,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.62,47,96,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.14,46,96,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,4.78,47,95,L,2,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.37,42,93,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.91,49,101,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,4.75,48,91,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.64,47,93,L,1,no,27.4,0,RESAMPLE,0,0,0,0
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,5.22,49,95,L,1,no,25.1,0,RESAMPLE,0,0,0,0
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,4.92,45,96,L,1,no,25.1,0,RESAMPLE,0,0,0,0
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,4.99,46,97,L,1,no,25.1,0,RESAMPLE,0,0,0,0
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,4.18,46,89,L,1,no,25.1,0,RESAMPLE,0,0,0,0
+Prospect,7/19/2024,larval dipnet,196,SCLTS,5.35,45,100,L,1,no,25.1,0,RESAMPLE,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,3.58,45,94,L,3,no,25,0,RESAMPLE; belly very red,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,3.8,43,85,L,3,no,25,0,RESAMPLE,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.08,42,91,L,2,no,25,0,RESAMPLE; leech attached,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.29,47,97,L,1,no,25,0,RESAMPLE,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.75,46,103,L,3,no,25,0,RESAMPLE; 3 leeches,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.24,47,96,L,1,no,25,0,RESAMPLE,0,0,0,0
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.14,45,92,L,3,no,25,0,RESAMPLE,0,0,0,0
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.7,42,60,L,1,no,,1,TL tail damage; extra back right limb bud,0,1,0,1
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.3,34,85,L,1,no,,1,extra back right limb bud,0,1,0,1
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.1,36,64,L,1,no,,1,extra back left and front right hands; TL tail damage,0,1,0,1
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.7,37,77,L,1,no,,1,extra back leg,0,1,0,1
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,2.38,33,62,L,1,no,,1,TL tail damage; 2 extra back legs,0,1,0,1
+Ellicott,5/28/2024,larval seine,90m full width + 90m half width,SCLTS,3.52,39,78,L,1,no,,1,extra back left leg,0,1,0,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.46,n/a,n/a,L,4,no,28.5,1,RESAMPLE; back right fused with 10 toes,1,0,1,2
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.4,40,87,L,1,no,28.5,1,RESAMPLE; both back limbs fused to body with many extra toes,1,0,1,2
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.45,45,91,L,4,no,28.5,1,RESAMPLE; back right with extra toes,1,0,0,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3,41,82,L,1,no,28.5,1,RESAMPLE; back right legs fused to body,0,0,1,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.71,45,53,L,1,no,28.5,1,RESAMPLE; TL tail damage; both back legs fused to body,0,0,1,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.83,43,81,L,1,no,28.5,1,RESAMPLE; back right leg has more than 12 toes; back left leg has 6 toes,1,0,0,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.16,45,87,L,4,no,28.5,1,RESAMPLE; extra back right foot,0,1,0,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,3.45,44,86,L,1,no,28.5,1,RESAMPLE; back left leg fused to body,0,0,1,1
+Ellicott,8/14/2024,larval dipnet,118,SCLTS,2.91,43,85,L,1,no,28.5,1,RESAMPLE; extra back right toes,1,0,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,3.12,44,72,L,1,no,29,1,RESAMPLE; extra back left foot; TL tail damage,0,1,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.78,43,85,L,4,no,29,1,RESAMPLE; extra back right foot,0,1,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.71,42,89,L,4,no,29,1,RESAMPLE; back right foot fused to body,0,0,1,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.59,40,83,L,4,no,29,1,RESAMPLE; extra hind feet on both sides,0,1,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.56,41,83,L,4,no,29,1,RESAMPLE; extra back left foot; back left leg fused to body,0,1,1,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.99,43,86,L,4,no,29,1,RESAMPLE; back right foot has 2 extra toes; one leech,1,0,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,3.07,43,91,L,4,no,29,1,RESAMPLE; extra toes on both hind limbs,1,0,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.22,37,72,L,4,no,29,1,RESAMPLE; extra back left foot; extra toes on back right foot; TL tail damage,1,1,0,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.93,43,70,L,1,no,29,1,RESAMPLE; TL tail damage; both hind limbs fused to body with extra toes,1,0,1,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.62,41,81,L,3,no,29,1,RESAMPLE; extra back left foot,0,1,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.85,41,82,L,1,no,29,1,RESAMPLE; extra feet on both hind limbs; back limbs are fused to body,0,1,1,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.63,44,84,L,4,no,29,1,RESAMPLE; extra back left toes; back right is a mass of toes,1,0,0,1
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.74,44,87,L,3,no,29,1,RESAMPLE; 3 extra toes on back right; extra toes on back left; both hind limbs fused to body,1,0,1,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.72,41,80,L,1,no,29,1,RESAMPLE; front right foot with 2 extra toes; extra back right foot,1,1,0,2
+Ellicott,8/18/2024,larval dipnet,86,SCLTS,2.61,42,71,L,1,no,29,1,RESAMPLE; bloated; both hind limbs fused to body,0,0,1,1
+Prospect,5/19/2024,larval seine,74m of full width seine,SCLTS,6,42,82,L,1,no,,1,light colored; bloated; extra front left hand,0,1,0,1
+Prospect,5/28/2024,larval seine,seined entire pond twice + 2 jibs,SCLTS,4.5,45,97,L,3,no,22.3,1,RESAMPLE; extra right back hand; leech on left foot and hand,0,1,0,1
+Prospect,5/28/2024,larval seine,seined entire pond twice + 2 jibs,SCLTS,4.4,40,92,L,1,no,22.3,1,RESAMPLE; extra back left foot,0,1,0,1
+Prospect,6/24/24,larval dipnet,202,SCLTS,4.9,47,97,L,1,no,26.4,1,RESAMPLE; extra back right foot,0,1,0,1
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,4.8,47,99,L,1,no,27.4,1,RESAMPLE; extra back right foot,0,1,0,1
+Prospect,7/5/2024,larval seine,entire pond area seined,SCLTS,5.31,48,98,L,1,no,27.4,1,RESAMPLE; extra toes on back right foot,1,0,0,1
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,4.58,44,97,L,1,no,25.1,1,RESAMPLE; small extra back left foot,0,1,0,1
+Prospect,7/19/2024,larval seine,160m of seine hauls,SCLTS,4.01,43,69,L,1,no,25.1,1,RESAMPLE; TL tail damage; extra back left toe,1,0,0,1
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,3.99,46,86,L,4,no,25,1,RESAMPLE; back right foot fused to body with extra toes,1,0,1,2
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.53,47,94,L,1,no,25,1,RESAMPLE; two extra back feet,0,1,0,1
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.84,48,102,L,4,no,25,1,RESAMPLE; extra back left foot,0,1,0,1
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.59,46,97,L,1,no,25,1,RESAMPLE; back left foot fused to body,0,0,1,1
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,3.99,48,94,L,1,no,25,1,RESAMPLE; both hind limbs fused to body; extra toes on both hind limbs; red on side,1,0,1,2
+Prospect,8/13/2024,larval seine,300m of seine hauls,SCLTS,4.46,46,96,L,1,no,25,1,RESAMPLE; two extra hind feet,0,1,0,1
