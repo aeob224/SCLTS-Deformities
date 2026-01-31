@@ -18,6 +18,7 @@ library(tidyverse)
 library(readxl)
 library(car)
 library(cowplot)
+library(ggpubr)
 
 
 ################################################################################
@@ -149,10 +150,14 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
   ylab("Body Condition") +
   labs(title = "Ellicott Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 18),
-        axis.text = element_text(size = 16),
-        title = element_text(size = 20, hjust = 0.5),
-        plot.title = element_text(hjust = 0))
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
+        plot.title = element_text(hjust = 0))  +
+  stat_compare_means(method = "anova",
+                     label = "p.signif",
+                     size = 8,
+                     hide.ns = T)
 
 ellicott_juv_plot
 
@@ -168,10 +173,14 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
   ylab("Body Condition") +
   labs(title = "Prospect Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 18),
-        axis.text = element_text(size = 16),
-        title = element_text(size = 20),
-        plot.title = element_text(hjust = 0))
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
+        plot.title = element_text(hjust = 0)) +
+  stat_compare_means(method = "anova",
+                     label = "p.signif",
+                     size = 8,
+                     hide.ns = T)
 
 prospect_juv_plot
 
@@ -187,10 +196,14 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
   ylab("Body Condition") +
   labs(title = "Ellicott Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 18),
-        axis.text = element_text(size = 16),
-        title = element_text(size = 20),
-        plot.title = element_text(hjust = 0))
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
+        plot.title = element_text(hjust = 0)) +
+  stat_compare_means(method = "anova",
+                     label = "p.signif",
+                     size = 8,
+                     hide.ns = T)
 
 ellicott_larv_plot
 
@@ -206,10 +219,14 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
   ylab("Body Condition") +
   labs(title = "Prospect Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 18),
-        axis.text = element_text(size = 16),
-        title = element_text(size = 20),
-        plot.title = element_text(hjust = 0))
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
+        plot.title = element_text(hjust = 0)) +
+  stat_compare_means(method = "anova",
+                     label = "p.signif",
+                     size = 8,
+                     hide.ns = T)
 
 prospect_larv_plot
 
@@ -220,17 +237,23 @@ prospect_larv_plot
 juvenile_plots <- plot_grid(ellicott_juv_plot,
                             prospect_juv_plot,
                             ncol = 2,
-                            labels = c("A", "B"))
+                            labels = c("A", "B"),
+                            label_size = 20)
 
-ggsave("results/img/juvenile_plots.jpg", plot = juvenile_plots)
+ggsave("results/img/juvenile_plots.jpg", plot = juvenile_plots,
+       width = 25,
+       height = 15)
 
 ## For larvae
 larval_plots <- plot_grid(ellicott_larv_plot,
                           prospect_larv_plot,
                           ncol = 2,
-                          labels = c("A", "B"))
+                          labels = c("A", "B"),
+                          label_size = 20)
 
-ggsave("results/img/larval_plots.jpg", plot = larval_plots)
+ggsave("results/img/larval_plots.jpg", plot = larval_plots,
+       width = 25,
+       height = 15)
 
 ## All four plots
 full_plots <- plot_grid(ellicott_juv_plot,
