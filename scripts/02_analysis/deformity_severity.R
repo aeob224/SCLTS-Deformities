@@ -17,6 +17,7 @@ library(cowplot)
 library(car)
 library(rstatix)
 library(cld)
+library(ggpubr)
 
 ################################################################################
 # 1. Ellicott Juvenile Severity Effect
@@ -76,12 +77,16 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 20),
-        axis.text = element_text(size = 18),
-        title = element_text(size = 20),
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
         plot.title = element_text(hjust = 0.5))
 
 ellicott_deformity_severity
+ggsave("results/img/ellicott_juvenile_severity.jpg", plot = ellicott_deformity_severity,
+       width = 20,
+       height = 15)
+
 ################################################################################
 
 
@@ -146,13 +151,15 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 20),
-        axis.text = element_text(size = 18),
-        title = element_text(size = 20),
+  theme(axis.title = element_text(size = 24),
+        axis.text = element_text(size = 24),
+        title = element_text(size = 24),
         plot.title = element_text(hjust = 0.5))
 
 ellicott_larval_deformity_severity
-
+ggsave("results/img/ellicott_larval_severity.jpg", plot = ellicott_larval_deformity_severity,
+       width = 20,
+       height = 15)
 ################################################################################
 
 
