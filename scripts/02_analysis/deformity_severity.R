@@ -80,6 +80,8 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
         plot.title = element_text(hjust = 0.5)) +
   scale_x_discrete(labels = c("Healthy", "Extra Digits", "Extra Limbs", "Fused Limbs"))
 
+
+
 ellicott_deformity_severity
 ggsave("results/img/ellicott_juvenile_severity.jpg", plot = ellicott_deformity_severity,
        width = 20,
