@@ -65,22 +65,20 @@ juvenile_multiple_comparison <- games_howell_test(body_condition ~ severity_inde
 cld::make_cld(juvenile_multiple_comparison)
 
 # 1.4 Visualization ------------------------------------------------------------
-levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
-
-
 ellicott_deformity_severity <- ggplot(data = ellicott_severity,
        aes(x = severity_index,
            y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
-  xlab("Severity Index Score") +
+  xlab("Severity Index") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
   theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
+        axis.text = element_text(size = 22),
         title = element_text(size = 24),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0.5)) +
+  scale_x_discrete(labels = c("Healthy", "Extra Digits", "Extra Limbs", "Fused Limbs"))
 
 ellicott_deformity_severity
 ggsave("results/img/ellicott_juvenile_severity.jpg", plot = ellicott_deformity_severity,
@@ -139,9 +137,6 @@ larval_multiple_comparisons
 cld::make_cld(larval_multiple_comparisons)
 
 # 2.4 Visualization ------------------------------------------------------------
-levels(ellicott_severity$severity_index) <- c("Healthy", "Mild", "Moderate", "Severe")
-
-
 ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
                                       aes(x = severity_index,
                                           y = body_condition)) +
@@ -152,9 +147,11 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
   theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
+        axis.text = element_text(size = 22),
         title = element_text(size = 24),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0.5)) +
+  scale_x_discrete(labels = c("Healthy", "Extra Digits", "Extra Limbs", "Fused Limbs"))
+
 
 ellicott_larval_deformity_severity
 ggsave("results/img/ellicott_larval_severity.jpg", plot = ellicott_larval_deformity_severity,
