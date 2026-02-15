@@ -74,6 +74,7 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
+  ylim(-0.55,0.55) +
   theme(axis.title = element_text(size = 24),
         axis.text = element_text(size = 22),
         title = element_text(size = 24),
@@ -144,10 +145,11 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
                                           y = body_condition)) +
   geom_boxplot() +
   geom_jitter(width = 0.1) +
-  xlab("Severity Index Score") +
+  xlab("Severity Index") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
+  ylim(-0.5,0.5)+
   theme(axis.title = element_text(size = 24),
         axis.text = element_text(size = 22),
         title = element_text(size = 24),
