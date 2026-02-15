@@ -68,10 +68,11 @@ prospect_juv$body_condition <- residuals(lm(log_mass ~ log_svl, prospect_juv))
 leveneTest(body_condition ~ deformities, data = prospect_juv)
 
 ## Variances equal. Use Oneway ANOVA
-prospect_juv_anova <- aov(body_condition ~ deformities,
-                          data = prospect_juv)
+prospect_juv_anova <- oneway.test(body_condition ~ deformities,
+                          data = prospect_juv,
+                          var.equal = T)
 
-summary(prospect_juv_anova)
+prospect_juv_anova
 ################################################################################
 
 
@@ -96,11 +97,11 @@ ellicott_larv$body_condition <- residuals(lm(log_mass ~ log_svl, ellicott_larv))
 leveneTest(body_condition ~ deformities, data = ellicott_larv)
 
 ## Variances equal. Use Oneway ANOVA
-ellicott_larv_anova <- aov(body_condition ~ deformities,
-                          data = ellicott_larv)
+ellicott_larv_anova <- oneway.test(body_condition ~ deformities,
+                          data = ellicott_larv,
+                          var.equal = T)
+ellicott_larv_anova
 
-summary(ellicott_larv_anova)
-TukeyHSD(ellicott_larv_anova)
 ################################################################################
 
 
@@ -125,10 +126,11 @@ prospect_larv$body_condition <- residuals(lm(log_mass ~ log_svl, prospect_larv))
 leveneTest(body_condition ~ deformities, data = prospect_larv)
 
 ## Variances equal. Use Oneway ANOVA
-prospect_larv_anova <- aov(body_condition ~ deformities,
-                          data = prospect_larv)
+prospect_larv_anova <- oneway.test(body_condition ~ deformities,
+                          data = prospect_larv,
+                          var.equal = T)
 
-summary(prospect_larv_anova)
+prospect_larv_anova
 ################################################################################
 
 
@@ -153,11 +155,10 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
   theme(axis.title = element_text(size = 24),
         axis.text = element_text(size = 24),
         title = element_text(size = 24),
-        plot.title = element_text(hjust = 0))  +
-  stat_compare_means(method = "anova",
-                     label = "p.signif",
-                     size = 8,
-                     hide.ns = T)
+        plot.title = element_text(hjust = 0)) +
+  annotate("text", x = 1.5, y = 0.4, label = paste("p < 0.0001"),
+        size = 12, color = "black")
+
 
 ellicott_juv_plot
 
@@ -177,10 +178,9 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
         axis.text = element_text(size = 24),
         title = element_text(size = 24),
         plot.title = element_text(hjust = 0)) +
-  stat_compare_means(method = "anova",
-                     label = "p.signif",
-                     size = 8,
-                     hide.ns = T)
+  annotate("text", x = 1.5, y = 0.325, label = paste("p = ", round(prospect_juv_anova$p.value, 3)),
+        size = 12, color = "black")
+
 
 prospect_juv_plot
 
@@ -200,10 +200,9 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
         axis.text = element_text(size = 24),
         title = element_text(size = 24),
         plot.title = element_text(hjust = 0)) +
-  stat_compare_means(method = "anova",
-                     label = "p.signif",
-                     size = 8,
-                     hide.ns = T)
+  annotate("text", x = 1.5, y = 0.4, label = paste("p = ", round(ellicott_larv_anova$p.value, 3)),
+        size = 12, color = "black")
+
 
 ellicott_larv_plot
 
@@ -223,10 +222,9 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
         axis.text = element_text(size = 24),
         title = element_text(size = 24),
         plot.title = element_text(hjust = 0)) +
-  stat_compare_means(method = "anova",
-                     label = "p.signif",
-                     size = 8,
-                     hide.ns = T)
+  annotate("text", x = 1.5, y = 0.285, label = paste("p = ", round(prospect_larv_anova$p.value, 3)),
+        size = 12, color = "black")
+
 
 prospect_larv_plot
 
