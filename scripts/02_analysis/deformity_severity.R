@@ -68,7 +68,7 @@ cld::make_cld(juvenile_multiple_comparison)
 ellicott_deformity_severity <- ggplot(data = ellicott_severity,
        aes(x = severity_index,
            y = body_condition)) +
-  geom_boxplot() +
+  geom_boxplot(outliers = F) +
   geom_jitter(width = 0.1) +
   xlab("Severity Index") +
   ylab("Body Condition") +
@@ -143,7 +143,7 @@ cld::make_cld(larval_multiple_comparisons)
 ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
                                       aes(x = severity_index,
                                           y = body_condition)) +
-  geom_boxplot() +
+  geom_boxplot(outliers = F) +
   geom_jitter(width = 0.1) +
   xlab("Severity Index") +
   ylab("Body Condition") +
@@ -211,7 +211,7 @@ summary(prospect_larvae_anova)
 prospect__larval_deformity_severity <- ggplot(data = prospect_larvae_severity,
                                               aes(x = severity_index,
                                                   y = body_condition)) +
-  geom_boxplot() +
+  geom_boxplot(outliers = F) +
   geom_jitter(width = 0.1) +
   xlab("Severity Index Score") +
   ylab("Body Condition") +
@@ -237,8 +237,8 @@ prospect__larval_deformity_severity
 severity_plots <- plot_grid(ellicott_deformity_severity,
                             ellicott_larval_deformity_severity,
                             ncol = 2,
-                            labels = c("A", "B"),
-                            label_size = 20)
+                            labels = c("A)", "B)"),
+                            label_size = 28)
 severity_plots
 
 ggsave("results/img/severity_plots.jpg", plot = severity_plots,
