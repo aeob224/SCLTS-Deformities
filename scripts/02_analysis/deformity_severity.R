@@ -85,7 +85,7 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
 
 ellicott_deformity_severity
 ggsave("results/img/ellicott_juvenile_severity.jpg", plot = ellicott_deformity_severity,
-       width = 20,
+       width = 27,
        height = 15)
 
 ################################################################################
@@ -159,7 +159,7 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
 
 ellicott_larval_deformity_severity
 ggsave("results/img/ellicott_larval_severity.jpg", plot = ellicott_larval_deformity_severity,
-       width = 20,
+       width = 27,
        height = 15)
 ################################################################################
 

@@ -161,7 +161,10 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
 
 
 ellicott_juv_plot
-
+ggsave("results/img/ellicott_juvenile_body_condition.jpg",
+       ellicott_juv_plot,
+       width = 27,
+       height = 15)
 # 5.2 Prospect Juvenile Boxplot ------------------------------------------------
 levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
 
@@ -183,7 +186,10 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
 
 
 prospect_juv_plot
-
+ggsave("results/img/prospect_juvenile_body_condition.jpg",
+       prospect_juv_plot,
+       width = 27,
+       height = 15)
 # 5.3 Ellicott Larvae Boxplot --------------------------------------------------
 levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
 
@@ -205,7 +211,10 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
 
 
 ellicott_larv_plot
-
+ggsave("results/img/ellicott_larvae_body_condition.jpg",
+       ellicott_larv_plot,
+       width = 27,
+       height = 15)
 # 5.4 Prospect Larvae ----------------------------------------------------------
 levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
 
@@ -227,6 +236,10 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
 
 
 prospect_larv_plot
+ggsave("results/img/prospect_larvae_body_condition.jpg",
+       prospect_larv_plot,
+       width = 27,
+       height = 15)
 
 
 # 5.5 Multi-Plots ---------------------------------------------------------------
