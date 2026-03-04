@@ -146,7 +146,7 @@ levels(ellicott_juv$deformities) <- c('Healthy', 'Deformed')
 ellicott_juv_plot <- ggplot(data = ellicott_juv,
                             aes( x = deformities,
                                  y = body_condition)) +
-  geom_boxplot(outliers = F) +
+  geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
@@ -171,7 +171,7 @@ levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
 prospect_juv_plot <- ggplot(data = prospect_juv,
                              aes( x = deformities,
                                   y = body_condition)) +
-  geom_boxplot(outliers = F) +
+  geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
@@ -196,7 +196,7 @@ levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
 ellicott_larv_plot <- ggplot(data = ellicott_larv,
                              aes( x = deformities,
                                   y = body_condition)) +
-  geom_boxplot(outliers = F) +
+  geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
@@ -221,7 +221,7 @@ levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
 prospect_larv_plot <- ggplot(data = prospect_larv,
                              aes( x = deformities,
                                   y = body_condition)) +
-  geom_boxplot(outliers = F) +
+  geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
