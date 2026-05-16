@@ -147,24 +147,26 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
                             aes( x = deformities,
                                  y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
   labs(title = "Ellicott Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
   annotate("text", x = 1.5, y = 0.4, label = paste("p < 0.0001"),
-        size = 12, color = "black")
+        size = 5, color = "black")
 
 
 ellicott_juv_plot
 ggsave("results/img/ellicott_juvenile_body_condition.jpg",
        ellicott_juv_plot,
-       width = 27,
-       height = 15)
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 # 5.2 Prospect Juvenile Boxplot ------------------------------------------------
 levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
 
@@ -172,24 +174,26 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
                              aes( x = deformities,
                                   y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
   labs(title = "Prospect Juveniles") +
   theme_classic() +
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
   annotate("text", x = 1.5, y = 0.325, label = paste("p = ", round(prospect_juv_anova$p.value, 3)),
-        size = 12, color = "black")
+        size = 5, color = "black")
 
 
 prospect_juv_plot
 ggsave("results/img/prospect_juvenile_body_condition.jpg",
        prospect_juv_plot,
-       width = 27,
-       height = 15)
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 # 5.3 Ellicott Larvae Boxplot --------------------------------------------------
 levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
 
@@ -197,24 +201,26 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
                              aes( x = deformities,
                                   y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
   labs(title = "Ellicott Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
   annotate("text", x = 1.5, y = 0.4, label = paste("p = ", round(ellicott_larv_anova$p.value, 3)),
-        size = 12, color = "black")
+        size = 5, color = "black")
 
 
 ellicott_larv_plot
 ggsave("results/img/ellicott_larvae_body_condition.jpg",
        ellicott_larv_plot,
-       width = 27,
-       height = 15)
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 # 5.4 Prospect Larvae ----------------------------------------------------------
 levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
 
@@ -222,24 +228,26 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
                              aes( x = deformities,
                                   y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Body Condition") +
   labs(title = "Prospect Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 24),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
   annotate("text", x = 1.5, y = 0.285, label = paste("p = ", round(prospect_larv_anova$p.value, 3)),
-        size = 12, color = "black")
+        size = 5, color = "black")
 
 
 prospect_larv_plot
 ggsave("results/img/prospect_larvae_body_condition.jpg",
        prospect_larv_plot,
-       width = 27,
-       height = 15)
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 
 
 # 5.5 Multi-Plots ---------------------------------------------------------------
@@ -273,12 +281,14 @@ full_plots <- plot_grid(ellicott_juv_plot,
                         prospect_larv_plot,
                         ncol = 2,
                         labels = c("A", "B", "C", "D"),
-                        label_size = 20)
+                        label_size = 14)
 
 full_plots
 ggsave("results/img/all_body_condition_plots.jpg", plot = full_plots,
-       width = 20,
-       height = 15)
+       dpi = 1200,
+       width = 190,
+       height = 240,
+       units = "mm")
 ################################################################################
 
 
