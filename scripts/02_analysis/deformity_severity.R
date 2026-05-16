@@ -70,25 +70,29 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
        aes(x = severity_index,
            y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
   ylim(-0.55,0.55) +
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 22),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0.5)) +
   scale_x_discrete(labels = c("Healthy", "Extra Digits", "Extra Limbs", "Fused Limbs"))
 
 
 
 ellicott_deformity_severity
-ggsave("results/img/ellicott_juvenile_severity.jpg", plot = ellicott_deformity_severity,
-       width = 27,
-       height = 15)
 
+
+ggsave("results/img/ellicott_juvenile_severity.jpg",
+       plot = ellicott_deformity_severity,
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 ################################################################################
 
 
@@ -145,15 +149,15 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
                                       aes(x = severity_index,
                                           y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
   ylim(-0.5,0.5)+
-  theme(axis.title = element_text(size = 24),
-        axis.text = element_text(size = 22),
-        title = element_text(size = 24),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0.5)) +
   scale_x_discrete(labels = c("Healthy", "Extra Digits", "Extra Limbs", "Fused Limbs"))
 
@@ -161,11 +165,12 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
 ellicott_larval_deformity_severity
 
 
-
-
-ggsave("results/img/ellicott_larval_severity.jpg", plot = ellicott_larval_deformity_severity,
-       width = 27,
-       height = 15)
+ggsave("results/img/ellicott_larval_severity.jpg",
+       plot = ellicott_larval_deformity_severity,
+       dpi = 1200,
+       width = 190,
+       height = 120,
+       units = "mm")
 ################################################################################
 
 
@@ -217,14 +222,14 @@ prospect__larval_deformity_severity <- ggplot(data = prospect_larvae_severity,
                                               aes(x = severity_index,
                                                   y = body_condition)) +
   geom_boxplot(outliers = F, notch = T) +
-  geom_jitter(width = 0.1) +
+  geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index Score") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Prospect Larvae") +
   theme_classic() +
-  theme(axis.title = element_text(size = 20),
-        axis.text = element_text(size = 18),
-        title = element_text(size = 20),
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        title = element_text(size = 14),
         plot.title = element_text(hjust = 0.5))
 
 prospect__larval_deformity_severity
@@ -241,14 +246,17 @@ prospect__larval_deformity_severity
 ################################################################################
 severity_plots <- plot_grid(ellicott_deformity_severity,
                             ellicott_larval_deformity_severity,
-                            ncol = 2,
+                            ncol = 1,
                             labels = c("A)", "B)"),
-                            label_size = 28)
+                            label_size = 14)
 severity_plots
 
-ggsave("results/img/severity_plots.jpg", plot = severity_plots,
-       width = 20,
-       height = 10)
+ggsave("results/img/severity_plots.jpg",
+       plot = severity_plots,
+       dpi = 1200,
+       width = 190,
+       height = 240,
+       units = "mm")
 
 
 
