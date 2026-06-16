@@ -6,7 +6,6 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 11/23/2024,Ellicott (inner),2,BB,2.39,46,86,juvenile,0,extra back left toe; extra back right toe,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
 11/23/2024,Ellicott (inner),3,B,0.84,41,72,juvenile,0,extra back right toes; extra back left toes; back left leg fused to body,,1,1,1,1,,,1,,,,,,,,,,,,,,2,0,1,0,3
 11/23/2024,Ellicott (inner),1,A,2.05,46,84,juvenile,0,both hind limbs fused to body; extra toes on both hind feet,,1,1,1,1,,,1,1,,,,,,,,,,,,,2,0,2,0,4
-11/12/2024,Prospect,3,A,3.01,48,92,juvenile,0,10 toes on back right foot; 7 toes on back left foot,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
 7/19/2024,Ellicott (inner),6,A,2.13,43,81,metamorph,0,extra toes on both back feet; extra back left leg,,1,1,1,1,1,,,,,,,,,,,,,,,,2,1,0,0,3
 7/24/2024,Ellicott (inner),5,A,2.37,42,85,metamorph,0,2 extra back right toes; extra front left toe,,,1,,1,,,,,,,1,,1,,,,,,,,2,0,0,0,2
 8/7/2024,Ellicott (inner),2,B,2.37,45,89,metamorph,1,greater than 10 toes on both hind limbs,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
@@ -39,9 +38,6 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 11/23/2024,Ellicott (inner),5,A,1.63,42,83,juvenile,1,2 extra back left toes; extra back left foot,,1,,1,,1,,,,,,,,,,,,,,,,1,1,0,0,2
 11/23/2024,Ellicott (inner),5,A,1.52,44,83,juvenile,0,Both hind limbs fused to body; back left foot has extra toes,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
 11/24/2024,Ellicott (inner),7,A,1.3,42,73,juvenile,0,both hind limbs fused to body; back left foot has 10 toes,,1,1,1,,,,1,1,,,,,,,,,,,,,1,0,2,0,3
-11/12/2024,Prospect,7,A,3.46,52,97,juvenile,0,12 toes and an extra foot on back right side,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
-11/23/2024,Prospect,1,A,2.27,43,81,juvenile,0,back right foot has 11 toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
-11/23/2024,Prospect,6,A,3,45,94,juvenile,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
 11/23/2024,Ellicott (inner),6,B,2.13,50,93,juvenile_male,0,extra toes on back right foot; vent swollen,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
 7/15/2024,Ellicott (inner),8,A,2.25,44,74,metamorph,1,TL tail damage; extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
 7/16/2024,Ellicott (inner),5,A,2.81,43,82,metamorph,0,back right foot with 10 toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
@@ -97,13 +93,6 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 8/22/2024,Ellicott (inner),6,B,2.09,41,84,metamorph,0,extra back right foot; back right leg fused to body; extra back right toes,,,1,,1,,1,,1,,,,,,,,,,,,,1,1,1,0,3
 8/24/2024,Ellicott (inner),3,A,2.61,42,86,metamorph,1,extra back right toe nub,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
 8/24/2024,Ellicott (inner),6,B,2.55,46,86,metamorph,0,back right leg fused to body with extra toes; extra back right foot,,1,1,1,,,1,1,,,,,,,,,,,,,,1,1,1,0,3
-7/18/2024,Ellicott (outer),5,B,2.75,44,83,metamorph,0,extra toe on back left foot,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
-6/15/2024,Prospect,1,A,2.8,44,92,metamorph,1,gill nubs; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
-6/17/2024,Prospect,1,A,2.8,44,92,metamorph,1,Same individual as on 6/15/2024; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
-6/17/2024,Prospect,2,A,3.3,45,94,metamorph,0,extra back left foot; back right foot with extra toes,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
-6/18/2024,Prospect,8,A,3,46,84,metamorph,1,TL tail damage; 4 extra toes on back right; gill nubs,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
-6/25/2024,Prospect,5,A,2.7,48,93,metamorph,0,extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
-11/2/2024,Prospect,6,B,2.47,45,89,metamorph,1,extra back left toe; back left leg fused to body,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
 8/23/2024,Ellicott (inner),3,A,2.31,43,84,metamorph,1,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
 8/23/2024,Ellicott (inner),3,B,2.01,42,82,metamorph,1,9 back right toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
 11/2/2024,Ellicott (inner),5,B,2.18,46,87,juvenile,0,back left leg fused; back left also has 4 extra toes; back right with 2 fused toes,,1,1,1,,,,1,1,,1,,,,,,,,,,,1,0,2,1,4
@@ -171,9 +160,6 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 8/22/2024,Ellicott (inner),3,B,2.25,43,86,metamorph,1,back left leg fused to body,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
 8/24/2024,Ellicott (inner),4,A,2.27,45,88,metamorph,0,extra back left foot; back left leg fused to body,,1,,,,1,,1,,,,,,,,,,,,,,0,1,1,0,2
 11/2/2024,Ellicott (inner),2,A,1.4,42,80,metamorph,1,cysts on gills; back left leg fused; no yellow coloration,,1,,,,,,1,,,,,,,,,,,,,,0,0,1,0,1
-6/19/2024,Prospect,4,B,3.2,45,91,metamorph,1,extra left and right foot,,1,1,,,1,1,,,,,,,,,,,,,,,0,2,0,0,2
-6/25/2024,Prospect,4,B,3.6,45,91,metamorph,1,no left eye; extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
-7/7/2024,Prospect,2,B,1.71,47,79,metamorph,0,TL tail damage; both hind legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
 8/23/2024,Ellicott (inner),3,B,2.74,44,90,metamorph,1,extra back left foot; back left leg fused to body,,1,,,,1,,1,,,,,,,,,,,,,,0,1,1,0,2
 8/23/2024,Ellicott (inner),8,A,2.01,43,81,metamorph,0,extra back right foot; back right leg is fused,,,1,,,,1,,1,,,,,,,,,,,,,0,1,1,0,2
 7/12/2024,Ellicott (inner),2,A,2.49,44,86,metamorph,0,,0,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
@@ -309,6 +295,7 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 11/25/2024,Ellicott (inner),7,B,2.2,41,83,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 11/25/2024,Ellicott (inner),6,B,2.76,40,96,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 11/25/2024,Ellicott (inner),2,B,1.78,39,79,juvenile,0,swollen cloaca,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+7/18/2024,Ellicott (outer),5,B,2.75,44,83,metamorph,0,extra toe on back left foot,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
 6/18/2024,Ellicott (outer),8,A,2.2,39,81,metamorph,1,gill nubs,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 6/19/2024,Ellicott (outer),8,A,2.6,45,82,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 6/22/2024,Ellicott (outer),7,B,2.9,45,82,metamorph,1,gill nubs; TL tail damage; tail regen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
@@ -326,3 +313,38 @@ date,pond,line,trap,mass,svl,tl,age_sex,gill nubs,comment,Overall Severity,Back 
 7/12/2024,Ellicott (outer),7,A,2.4,43,81,metamorph,1,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 7/17/2024,Ellicott (outer),7,A,2.17,42,68,metamorph,0,TL tail damage,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
 7/18/2024,Ellicott (outer),8,A,2.02,43,83,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/12/2024,Prospect,3,A,3.01,48,92,juvenile,0,10 toes on back right foot; 7 toes on back left foot,,1,1,1,1,,,,,,,,,,,,,,,,,2,0,0,0,2
+11/12/2024,Prospect,7,A,3.46,52,97,juvenile,0,12 toes and an extra foot on back right side,,,1,,1,,1,,,,,,,,,,,,,,,1,1,0,0,2
+11/23/2024,Prospect,1,A,2.27,43,81,juvenile,0,back right foot has 11 toes,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/23/2024,Prospect,6,A,3,45,94,juvenile,0,extra back left toe,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/15/2024,Prospect,1,A,2.8,44,92,metamorph,1,gill nubs; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/17/2024,Prospect,1,A,2.8,44,92,metamorph,1,Same individual as on 6/15/2024; extra back right toe,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/17/2024,Prospect,2,A,3.3,45,94,metamorph,0,extra back left foot; back right foot with extra toes,,1,1,,1,1,,,,,,,,,,,,,,,,1,1,0,0,2
+6/18/2024,Prospect,8,A,3,46,84,metamorph,1,TL tail damage; 4 extra toes on back right; gill nubs,,,1,,1,,,,,,,,,,,,,,,,,1,0,0,0,1
+6/25/2024,Prospect,5,A,2.7,48,93,metamorph,0,extra back left toes,,1,,1,,,,,,,,,,,,,,,,,,1,0,0,0,1
+11/2/2024,Prospect,6,B,2.47,45,89,metamorph,1,extra back left toe; back left leg fused to body,,1,,1,,,,1,,,,,,,,,,,,,,1,0,1,0,2
+6/19/2024,Prospect,4,B,3.2,45,91,metamorph,1,extra left and right foot,,1,1,,,1,1,,,,,,,,,,,,,,,0,2,0,0,2
+6/25/2024,Prospect,4,B,3.6,45,91,metamorph,1,no left eye; extra back left foot,,1,,,,1,,,,,,,,,,,,,,,,0,1,0,0,1
+7/7/2024,Prospect,2,B,1.71,47,79,metamorph,0,TL tail damage; both hind legs fused to body,,1,1,,,,,1,1,,,,,,,,,,,,,0,0,2,0,2
+5/29/2024,Prospect,,,3.4,47,98,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+5/29/2024,Prospect,,,2.7,34,82,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+5/30/2024,Prospect,,,3.7,43,90,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+5/30/2024,Prospect,,,2.8,39,89,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+5/30/2024,Prospect,,,3.5,46,93,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/17/2024,Prospect,,,3.9,47,95,metamorph,0,4 leeches; gill nubs,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/18/2024,Prospect,,,2.4,45,88,metamorph,0,gill nubs,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/18/2024,Prospect,,,3.7,46,96,metamorph,0,gill nubs,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/22/2024,Prospect,,,2.9,45,93,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/28/2024,Prospect,,,3,46,87,metamorph,0,tail regen,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+6/30/2024,Prospect,,,3.09,47,93,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Prospect,,,2.8,48,91,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/2/2024,Prospect,,,2.9,48,98,metamorph,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/3/2024,Prospect,,,3.25,47,89,metamorph,0,missing part of back toe due to injury,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Prospect,,,2.52,48,88,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Prospect,,,1.86,42,83,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Prospect,,,1.9,48,88,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Prospect,,,1.94,41,82,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/23/2024,Prospect,,,3.66,55,110,juvenile?,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/24/2024,Prospect,,,2.29,43,85,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/24/2024,Prospect,,,1.85,41,81,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
+11/24/2024,Prospect,,,2.12,43,79,juvenile,0,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0
