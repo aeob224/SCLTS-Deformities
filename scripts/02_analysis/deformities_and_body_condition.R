@@ -32,10 +32,10 @@ ellicott_juv <- read_excel("data/processed/ellicott_juveniles_with_measurements.
          log_svl = log(svl),
          deformities = as.factor(deformities))
 
-# 1.2 Calculate body condition and standard residuals --------------------------
+# 1.2 Calculate body condition -------------------------------------------------
 ellicott_juv$body_condition <- residuals(lm(log_mass ~ log_svl, ellicott_juv))
+ellicott_juv$standardized_residuals <- rstandard(lm(log_mass ~ log_svl, ellicott_juv))
 
-ellicott_juv$standard_residuals <- rstandard(lm(log_mass ~ log_svl, ellicott_juv))
 
 # 1.3 Analyze deformity effect on body condition -------------------------------
 ## Test equality of variance
@@ -62,10 +62,10 @@ prospect_juv <- read_excel("data/processed/prospect_juveniles_with_measurements.
          log_svl = log(svl),
          deformities = as.factor(deformities))
 
-# 2.2 Calculate body condition and standardized residuals ----------------------
+# 2.2 Calculate body condition -------------------------------------------------
 prospect_juv$body_condition <- residuals(lm(log_mass ~ log_svl, prospect_juv))
+prospect_juv$standardized_residuals <- rstandard(lm(log_mass ~ log_svl, prospect_juv))
 
-prospect_juv$standard_residuals <- rstandard(lm(log_mass ~ log_svl, prospect_juv))
 
 # 2.3 Analyze deformity effect on body condition -------------------------------
 ## Test equality of variance
@@ -93,10 +93,9 @@ ellicott_larv <- read_excel("data/raw/ellicott_larvae_raw.xlsx") |>
          log_svl = log(as.numeric(svl)),
          deformities = as.factor(deformed))
 
-# 3.2 Calculate body condition and standard residuals --------------------------
+# 3.2 Calculate body condition -------------------------------------------------
 ellicott_larv$body_condition <- residuals(lm(log_mass ~ log_svl, ellicott_larv))
-
-ellicott_larv$standard_residuals <- rstandard(lm(log_mass ~ log_svl, ellicott_larv))
+ellicott_larv$standardized_residuals <- rstandard(lm(log_mass ~ log_svl, ellicott_larv))
 
 # 3.3 Analyze deformity effect on body condition -------------------------------
 ## Test equality of variance
@@ -124,10 +123,9 @@ prospect_larv <- read_excel("data/raw/prospect_larvae_raw.xlsx") |>
          log_svl = log(as.numeric(svl)),
          deformities = as.factor(deformed))
 
-# 4.2 Calculate body condition ad standard residuals ---------------------------
+# 4.2 Calculate body condition -------------------------------------------------
 prospect_larv$body_condition <- residuals(lm(log_mass ~ log_svl, prospect_larv))
-
-prospect_larv$standard_residuals <- rstandard(lm(log_mass ~ log_svl, prospect_larv))
+prospect_larv$standardized_residuals <- rstandard(lm(log_mass ~ log_svl, prospect_larv))
 
 # 4.3 Analyze deformity effect on body condition -------------------------------
 ## Test equality of variance
@@ -151,11 +149,9 @@ prospect_larv_anova
 # 5.1 Ellicott Juvenile Boxplot ------------------------------------------------
 levels(ellicott_juv$deformities) <- c('Healthy', 'Deformed')
 
-# Please note that I use standardized residuals for these plots to more easily
-# convey the results in an interpretable format.
 ellicott_juv_plot <- ggplot(data = ellicott_juv,
                             aes( x = deformities,
-                                 y = standard_residuals)) +
+                                 y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
@@ -166,7 +162,7 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
-  annotate("text", x = 1.5, y = 0.4, label = paste("p < 0.0001"),
+  annotate("text", x = 1.5, y = 1.5, label = paste("p < 0.0001"),
         size = 5, color = "black")
 
 
@@ -182,7 +178,7 @@ levels(prospect_juv$deformities) <- c('Healthy', 'Deformed')
 
 prospect_juv_plot <- ggplot(data = prospect_juv,
                              aes( x = deformities,
-                                  y = standard_residuals)) +
+                                  y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
@@ -193,7 +189,7 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
-  annotate("text", x = 1.5, y = 0.325, label = paste("p = ", round(prospect_juv_anova$p.value, 3)),
+  annotate("text", x = 1.5, y = 1.2, label = paste("p = ", round(prospect_juv_anova$p.value, 3)),
         size = 5, color = "black")
 
 
@@ -204,12 +200,13 @@ ggsave("results/img/prospect_juvenile_body_condition.jpg",
        width = 190,
        height = 120,
        units = "mm")
+
 # 5.3 Ellicott Larvae Boxplot --------------------------------------------------
 levels(ellicott_larv$deformities) <- c('Healthy', 'Deformed')
 
 ellicott_larv_plot <- ggplot(data = ellicott_larv,
                              aes( x = deformities,
-                                  y = standard_residuals)) +
+                                  y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
@@ -220,7 +217,7 @@ ellicott_larv_plot <- ggplot(data = ellicott_larv,
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
-  annotate("text", x = 1.5, y = 0.4, label = paste("p = ", round(ellicott_larv_anova$p.value, 3)),
+  annotate("text", x = 1.5, y = 1.5, label = paste("p = ", round(ellicott_larv_anova$p.value, 3)),
         size = 5, color = "black")
 
 
@@ -231,12 +228,13 @@ ggsave("results/img/ellicott_larvae_body_condition.jpg",
        width = 190,
        height = 120,
        units = "mm")
+
 # 5.4 Prospect Larvae ----------------------------------------------------------
 levels(prospect_larv$deformities) <- c('Healthy', 'Deformed')
 
 prospect_larv_plot <- ggplot(data = prospect_larv,
                              aes( x = deformities,
-                                  y = standard_residuals)) +
+                                  y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
@@ -247,7 +245,7 @@ prospect_larv_plot <- ggplot(data = prospect_larv,
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
         plot.title = element_text(hjust = 0)) +
-  annotate("text", x = 1.5, y = 0.285, label = paste("p = ", round(prospect_larv_anova$p.value, 3)),
+  annotate("text", x = 1.5, y = 1.5, label = paste("p = ", round(prospect_larv_anova$p.value, 3)),
         size = 5, color = "black")
 
 
@@ -294,7 +292,7 @@ full_plots <- plot_grid(ellicott_juv_plot,
                         label_size = 14)
 
 full_plots
-ggsave("results/img/all_body_condition_plots.jpg", plot = full_plots,
+ggsave("results/img/all_body_condition_plots_standardized_residuals.jpg", plot = full_plots,
        dpi = 1200,
        width = 190,
        height = 240,

@@ -40,7 +40,8 @@ ellicott_severity <- read_csv("data/raw/severity_dataset.csv") |>
   log_mass = log(mass),
   log_svl = log(svl)) |>
   mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
-         severity_index = as.character(severity_index))
+         severity_index = as.character(severity_index),
+         standardized_residuals = rstandard(lm(log_mass ~ log_svl)))
 
 
 
@@ -68,14 +69,13 @@ cld::make_cld(juvenile_multiple_comparison)
 # 1.4 Visualization ------------------------------------------------------------
 ellicott_deformity_severity <- ggplot(data = ellicott_severity,
        aes(x = severity_index,
-           y = body_condition)) +
+           y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
-  ylim(-0.55,0.55) +
   theme(axis.title = element_text(size = 12),
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
@@ -124,7 +124,8 @@ ellicott_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |
   mutate(log_mass = log(mass),
   log_svl = log(svl)) |>
   mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
-         severity_index = as.character(severity_index))
+         severity_index = as.character(severity_index),
+         standardized_residuals = rstandard(lm(log_mass ~ log_svl)))
 
 # 2.2 ANOVA of severity and body condition -------------------------------------
 ## Levene test is significant. Variances are equal, so use oneway ANOVA.
@@ -154,7 +155,6 @@ ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
   ylab("Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
-  ylim(-0.5,0.5)+
   theme(axis.title = element_text(size = 12),
         axis.text = element_text(size = 12),
         title = element_text(size = 14),
@@ -202,7 +202,8 @@ prospect_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |
   mutate(log_mass = log(mass),
          log_svl = log(svl)) |>
   mutate(body_condition = residuals(lm(log_mass ~ log_svl)),
-         severity_index = as.character(severity_index))
+         severity_index = as.character(severity_index),
+         standardized_residuals = rstandard(lm(log_mass ~ log_svl)))
 
 
 
@@ -220,7 +221,7 @@ summary(prospect_larvae_anova)
 # 3.3 Visualization ------------------------------------------------------------
 prospect__larval_deformity_severity <- ggplot(data = prospect_larvae_severity,
                                               aes(x = severity_index,
-                                                  y = body_condition)) +
+                                                  y = standardized_residuals)) +
   geom_boxplot(outliers = F, notch = T) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index Score") +
@@ -251,7 +252,7 @@ severity_plots <- plot_grid(ellicott_deformity_severity,
                             label_size = 14)
 severity_plots
 
-ggsave("results/img/severity_plots.jpg",
+ggsave("results/img/severity_plots_standardized_residuals.jpg",
        plot = severity_plots,
        dpi = 1200,
        width = 190,
