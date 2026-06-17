@@ -35,7 +35,7 @@ ellicott_juv_severity |>
 
 ## Prospect Juveniles ----------------------------------------------------------
 prospect_juv_severity <- read_csv("data/raw/severity_dataset.csv") |>
-  dplyr::select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  dplyr::select(date, pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Prospect") |>
   mutate(severity_index = case_when(
     fused_limbs > 0 ~ 3,
@@ -52,7 +52,7 @@ prospect_juv_severity |>
 
 ## Ellicott Larvae -------------------------------------------------------------
 ellicott_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |>
-  dplyr::select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  dplyr::select(date, pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Ellicott") |>
   mutate(severity_index = case_when(
     fused_limbs > 0 ~ 3,
@@ -69,7 +69,7 @@ ellicott_larvae_severity |>
 
 ## Prospect Larvae -------------------------------------------------------------
 prospect_larvae_severity <- read_csv("data/raw/larval_deformity_severity.csv") |>
-  select(pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
+  select(date, pond, svl, mass, extra_toes, extra_limbs, fused_limbs) |>
   filter(pond == "Prospect") |>
   mutate(severity_index = case_when(
     fused_limbs > 0 ~ 3,
@@ -86,8 +86,9 @@ prospect_larvae_severity |>
 
 
 
-
-# Pooled Larva vs. Juvenile Test ###############################################
+################################################################################
+# Pooled Larva vs. Juvenile Test
+################################################################################
 
 ## Extract Counts for Larvae ---------------------------------------------------
 
@@ -135,7 +136,74 @@ test$stdres
 ################################################################################
 
 
-# Ellicott vs. Prospect Larvae #############################################
+
+
+
+################################################################################
+# Ellicott Larvae vs. Juveniles
+################################################################################
+
+## Extract Counts --------------------------------------------------------------
+ellicott_larvae_severity |>
+  group_by(severity_index) |>
+  count()
+### 24, 6, 13, 11
+
+ellicott_juv_severity |>
+  group_by(severity_index) |>
+  count()
+### 150, 54, 40, 70
+
+## Set up table ----------------------------------------------------------------
+observed_table <- matrix(c(24,150,6,54,13,40,11,70), nrow = 2, ncol = 4)
+rownames(observed_table) <- c('Larvae', 'Juveniles')
+colnames(observed_table) <- c('healthy', 'extra digits', 'extra limbs', 'fused limbs')
+observed_table
+
+## Run Fisher's exact test due to small samples --------------------------------
+test <- chisq.test(observed_table)
+test
+################################################################################
+
+
+
+
+
+################################################################################
+# Prospect Larvae vs. Metamorphs
+################################################################################
+
+## Extract Counts --------------------------------------------------------------
+prospect_larvae_severity |>
+  group_by(severity_index) |>
+  count()
+### 49, 2, 9, 3
+
+
+prospect_juv_severity |>
+  group_by(severity_index) |>
+  count()
+### 22, 7, 4, 2
+
+
+## Set up table ----------------------------------------------------------------
+observed_table <- matrix(c(49, 22, 2, 7, 9, 4, 3, 2), nrow = 2, ncol = 4)
+rownames(observed_table) <- c('Larvae', 'Juveniles')
+colnames(observed_table) <- c('healthy', 'extra digits', 'extra limbs', 'fused limbs')
+observed_table
+
+## Run Fisher's exact test due to small samples --------------------------------
+test <- fisher.test(observed_table)
+test
+################################################################################
+
+
+
+
+
+################################################################################
+# Ellicott vs. Prospect Larvae
+################################################################################
 
 ## Extract Counts --------------------------------------------------------------
 ellicott_larvae_severity |>
@@ -157,11 +225,36 @@ observed_table
 ## Run Fisher's exact test due to small samples --------------------------------
 test <- fisher.test(observed_table)
 test
+################################################################################
 
 
 
 
 
+################################################################################
+# Ellicott vs. Prospect Juveniles
+################################################################################
+## Extract Counts --------------------------------------------------------------
+ellicott_juv_severity |>
+  group_by(severity_index) |>
+  count()
+### 150, 54, 40, 70
+
+prospect_juv_severity |>
+  group_by(severity_index) |>
+  count()
+### 22, 7, 4, 2
+
+## Set up table ----------------------------------------------------------------
+observed_table <- matrix(c(150, 22, 54, 7, 40, 4, 70, 2), nrow = 2, ncol = 4)
+rownames(observed_table) <- c('Ellicott', 'Prospect')
+colnames(observed_table) <- c('healthy', 'extra digits', 'extra limbs', 'fused limbs')
+observed_table
+
+## Run Fisher's exact test due to small samples --------------------------------
+test <- fisher.test(observed_table)
+test
+################################################################################
 
 
 
