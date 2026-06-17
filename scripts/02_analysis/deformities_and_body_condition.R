@@ -303,6 +303,27 @@ ggsave("results/img/all_body_condition_plots_standardized_residuals.jpg", plot =
 
 
 
+################################################################################
+# Examine Effect Sizes
+################################################################################
+
+ellicott_juv |>
+  summarise(m = mean(standardized_residuals), .by = deformities)
+
+
+ellicott_larv |>
+  summarise(m = mean(standardized_residuals), .by = deformities)
+
+
+prospect_juv |>
+  summarise(m = mean(standardized_residuals), .by = deformities)
+
+
+prospect_larv |>
+  summarise(m = mean(standardized_residuals), .by = deformities)
+
+
+
 
 
 
