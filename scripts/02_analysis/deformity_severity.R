@@ -70,10 +70,10 @@ cld::make_cld(juvenile_multiple_comparison)
 ellicott_deformity_severity <- ggplot(data = ellicott_severity,
        aes(x = severity_index,
            y = standardized_residuals)) +
-  geom_boxplot(outliers = F, notch = T) +
+  geom_boxplot(outliers = F, notch = F) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
-  ylab("Body Condition") +
+  ylab("Standardized Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
@@ -149,10 +149,10 @@ cld::make_cld(larval_multiple_comparisons)
 ellicott_larval_deformity_severity <- ggplot(data = ellicott_larvae_severity,
                                       aes(x = severity_index,
                                           y = body_condition)) +
-  geom_boxplot(outliers = F, notch = T) +
+  geom_boxplot(outliers = F, notch = F) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
-  ylab("Body Condition") +
+  ylab("Standardized Body Condition") +
   labs(title = "Deformity Severity Effects on Ellicott Larvae") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
@@ -222,10 +222,10 @@ summary(prospect_larvae_anova)
 prospect__larval_deformity_severity <- ggplot(data = prospect_larvae_severity,
                                               aes(x = severity_index,
                                                   y = standardized_residuals)) +
-  geom_boxplot(outliers = F, notch = T) +
+  geom_boxplot(outliers = F, notch = F) +
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index Score") +
-  ylab("Body Condition") +
+  ylab("Standardized Body Condition") +
   labs(title = "Deformity Severity Effects on Prospect Larvae") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
