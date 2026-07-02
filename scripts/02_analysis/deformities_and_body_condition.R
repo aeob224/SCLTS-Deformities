@@ -156,7 +156,7 @@ ellicott_juv_plot <- ggplot(data = ellicott_juv,
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Standardized Body Condition") +
-  labs(title = "Ellicott Juveniles") +
+  labs(title = "Ellicott Metamorphs") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
         axis.text = element_text(size = 12),
@@ -183,7 +183,7 @@ prospect_juv_plot <- ggplot(data = prospect_juv,
   geom_jitter(width = 0.1, size = 1) +
   xlab("Deformity Status") +
   ylab("Standardized Body Condition") +
-  labs(title = "Prospect Juveniles") +
+  labs(title = "Prospect Metamorphs") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
         axis.text = element_text(size = 12),
@@ -294,6 +294,14 @@ full_plots <- plot_grid(ellicott_juv_plot,
 full_plots
 ggsave("results/img/all_body_condition_plots_standardized_residuals.jpg", plot = full_plots,
        dpi = 1200,
+       width = 190,
+       height = 240,
+       units = "mm")
+
+
+
+ggsave("results/img/all_body_condition_plots_standardized_residuals.tif", plot = full_plots,
+       dpi = 300,
        width = 190,
        height = 240,
        units = "mm")
