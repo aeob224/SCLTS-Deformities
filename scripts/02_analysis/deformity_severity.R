@@ -74,7 +74,7 @@ ellicott_deformity_severity <- ggplot(data = ellicott_severity,
   geom_jitter(width = 0.1, size = 1) +
   xlab("Severity Index") +
   ylab("Standardized Body Condition") +
-  labs(title = "Deformity Severity Effects on Ellicott Juveniles") +
+  labs(title = "Deformity Severity Effects on Ellicott Metamorphs") +
   theme_classic() +
   theme(axis.title = element_text(size = 12),
         axis.text = element_text(size = 12),
@@ -260,8 +260,24 @@ ggsave("results/img/severity_plots_standardized_residuals.jpg",
        units = "mm")
 
 
+ggsave("results/img/severity_plots_standardized_residuals.tif",
+       plot = severity_plots,
+       dpi = 300,
+       width = 190,
+       height = 240,
+       units = "mm")
 
 
+
+################################################################################
+# 5 Effect Sizes
+################################################################################
+ellicott_larvae_severity |>
+  summarise(m = mean(standardized_residuals), .by = severity_index)
+
+
+ellicott_severity |>
+  summarise(m = mean(standardized_residuals), .by = severity_index)
 
 
 
